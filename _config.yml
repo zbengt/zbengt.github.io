@@ -59,7 +59,7 @@ instagram: coyleaidan
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-ORCID: 0000-0002-3335-840X
+ORCID: https://orcid.org/0000-0002-3335-840X
 #  google-scholar: your google scholar
 
 # If you want to show a link to an RSS in the footer, add the site description here.
@@ -73,9 +73,6 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  email: true
-  github: true
-  instagram: true
   vk: false
 
 # How to display the link to your website in the footer
