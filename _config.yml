@@ -6,10 +6,10 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Aidan F. Coyle
 
 # Your name to show in the footer
-author: Some Person
+author: Aidan Coyle
 
 # --- List of links in the navigation bar --- #
 
@@ -39,17 +39,17 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "afcoyle@uw.edu"
+#  facebook: deanattali
+  github: afcoyle
+#  twitter: daattali
 #  patreon: DeanAttali
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+  instagram: coyle_aidan
 #  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
