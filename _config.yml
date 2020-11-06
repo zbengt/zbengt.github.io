@@ -39,17 +39,17 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: afcoyle@uw.edu
+email: afcoyle@uw.edu
 #  facebook: deanattali
-   github: afcoyle
+github: afcoyle
 #  twitter: daattali
 #  patreon: DeanAttali
 #  reddit: yourname
-   linkedin: linkedin.com/in/aidan-coyle-5300758a/
+linkedin: linkedin.com/in/aidan-coyle-5300758a/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-   instagram: coyleaidan
+instagram: coyleaidan
 #  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
@@ -59,7 +59,7 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-   ORCID: 0000-0002-3335-840X
+ORCID: 0000-0002-3335-840X
 #  google-scholar: your google scholar
 
 # If you want to show a link to an RSS in the footer, add the site description here.
