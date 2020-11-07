@@ -9,12 +9,13 @@
 title: Aidan F. Coyle
 
 # Your name to show in the footer
-author: Aidan Coyle's Website
+author: Aidan Coyle
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
+  Lab Notebook: "notebook"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
