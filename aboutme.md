@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About
+permalink: /about/
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Growing up in coastal Alaska, Aidan has always been fascinated by the ocean and the various critters that live in it. That love took him to Bowdoin College, where he researched genetic links to thermal tolerance in the invasive European green crab. After graduation, he continued his crab investigations, working for the Alaska Department of Fish and Game on Tanner crab reproduction studies and monitoring the St. Matthew Island blue king crab population. He then joined the Washington Department of Fish and Wildlife, where he studied herring spawn events and ichthyoplankton distribution.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### More Information
 
-What else do you need?
+Aidan is particularly interested in epigenetic responses, parasite/host interactions, and invasive species. He also has a soft spot for crabs. In his free time, he enjoys bike trips and camping.
 
-### My story
+### Contact me
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+[afcoyle@uw.edu](mailto:afcoyle@uw.edu)

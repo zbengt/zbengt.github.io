@@ -7,16 +7,6 @@ use-site-title: true
 
 <meta property="og:image" content="{{ post.thumbnail }}">
 
-<div class="container" >
-         <div id="archives">
-             browse by <a title="The complete archive of {{ site.name }}'s Notebook by category"
-                          href="{{ site.url}}{{site.baseurl}}/categoryview">category</a> or <a title="The complete archive of
-     {{ site.name }}'s Notebook by month"
-     href="{{ site.url}}{{site.baseurl}}/monthview">date</a> or <a title="The complete archive of
-     {{ site.name }}'s Notebook by tag"
-     href="{{ site.url}}{{site.baseurl}}/tagview">tag</a>
-     </div>
-
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
