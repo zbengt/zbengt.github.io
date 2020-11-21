@@ -2,8 +2,8 @@
 layout: post
 title: Orientation 2, This Time It's CoE-ier
 date: '2020-09-24'
-categories: onboarding, hematodinium, Jupyter
-tags: hematodinium, Ubuntu, Jupyter
+categories: onboarding hematodinium Jupyter
+tags: hematodinium Ubuntu Jupyter
 ---
 
 **Continuing to Analyze Hematodinium BLAST results**

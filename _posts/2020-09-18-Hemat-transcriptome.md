@@ -2,7 +2,7 @@
 layout: post
 title: BLASTing off
 date: '2020-09-17'
-categories: onboarding, Ubuntu
+categories: onboarding Ubuntu
 tags:
 ---
 

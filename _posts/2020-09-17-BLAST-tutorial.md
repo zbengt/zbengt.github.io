@@ -2,7 +2,7 @@
 layout: post
 title: Intro to Ubuntu and Blast
 date: '2020-09-17'
-categories: onboarding, Ubuntu
+categories: onboarding Ubuntu
 tags:
 ---
 

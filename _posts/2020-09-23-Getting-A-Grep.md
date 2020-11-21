@@ -2,8 +2,8 @@
 layout: post
 title: Getting A Grep On Things
 date: '2020-09-23'
-categories: onboarding, hematodinium, Jupyter
-tags: hematodinium, Ubuntu, Jupyter
+categories: onboarding hematodinium Jupyter
+tags: hematodinium Ubuntu Jupyter
 ---
 
 **Analyzing Hematodinium BLAST results**

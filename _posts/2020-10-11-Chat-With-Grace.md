@@ -2,8 +2,8 @@
 layout: post
 title:  Background Info on Grace's Research
 date: '2020-10-11'
-categories: hematodinium, background
-tags: hematodinium, background, notes, interview
+categories: hematodinium background
+tags: hematodinium background notes interview
 ---
 
 **First, Some Project Background**

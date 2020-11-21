@@ -2,8 +2,8 @@
 layout: post
 title: Probing Jupyter
 date: '2020-09-22'
-categories: onboarding, hematodinium, Jupyter
-tags: hematodinium, Ubuntu, Jupyter
+categories: onboarding hematodinium Jupyter
+tags: hematodinium Ubuntu Jupyter
 ---
 
 **Final Results (I Think) For Hematodinium BLAST**

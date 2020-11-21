@@ -2,8 +2,8 @@
 layout: post
 title: He-Mat and the Masters of the Database
 date: '2020-09-21'
-categories: onboarding, Ubuntu, hematodinium
-tags: hematodinium, Ubuntu
+categories: onboarding Ubuntu hematodinium
+tags: hematodinium Ubuntu
 ---
 
 **Success!**
