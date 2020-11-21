@@ -11,10 +11,9 @@ title: Aidan F. Coyle
 # Your name to show in the footer
 author: Aidan Coyle
 
-# --- List of links in the navigation bar --- #
-
+# List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About: "aboutme"
   Lab Notebook: "notebook"
   CV: "/cv/Coyle_CV_Nov_2020.pdf"
   #Resources:
