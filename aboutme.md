@@ -3,14 +3,6 @@ layout: page
 title: Aidan Coyle
 subtitle: Graduate student, University of Washington
 ---
-
-### Profiles
-- [CV](https://github.com/shellytrigg/shellytrigg.github.io/raw/master/docs/ShellyTriggJul2020CV.pdf)
-- [UW Data Science Fellow profile](https://escience.washington.edu/people/shelly-trigg/)
-- [ORCID](https://orcid.org/0000-0001-6904-4149)
-- [LinkedIn](https://www.linkedin.com/in/shelly-trigg-ph-d-670b6121)
-
-
 ### Current Research 
 
 I'm a graduate student in [Steven Robert's lab](http://faculty.washington.edu/sr320/) in the [School of Aquatic and Fishery Sciences](https://fish.uw.edu/) at the University of Washington in Seattle. I study TK 

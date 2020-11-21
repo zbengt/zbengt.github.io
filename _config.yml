@@ -16,7 +16,7 @@ author: Aidan Coyle
 navbar-links:
   About Me: "aboutme"
   Lab Notebook: "notebook"
-  CV: "CV"
+  CV: "/cv/Coyle_CV_Nov_2020.pdf"
   #Resources:
     - #Beautiful Jekyll: "https://beautifuljekyll.com"
     - #Learn markdown: "https://www.markdowntutorial.com/"
