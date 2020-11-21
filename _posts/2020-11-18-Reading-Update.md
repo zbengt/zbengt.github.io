@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Background Info on Grace's Research
-date: '2020-10-11'
+title:  Reading Update and Research Plans
+date: '2020-11-18'
 categories: hematodinium background
 tags: hematodinium planning notes
 ---
