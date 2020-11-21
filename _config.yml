@@ -13,13 +13,13 @@ author: Aidan Coyle
 
 # List of links in the navigation bar
 navbar-links:
- # CV: "cv/Coyle_CV_Nov_2020.pdf"
+  CV: "cv/Coyle_CV_Nov_2020.pdf"
   About: "aboutme"
   Lab Notebook: "notebook"
-  #Resources:
-    - #Beautiful Jekyll: "https://beautifuljekyll.com"
-    - #Learn markdown: "https://www.markdowntutorial.com/"
-  #Author's home: "https://deanattali.com"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
