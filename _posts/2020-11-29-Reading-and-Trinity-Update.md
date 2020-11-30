@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  TRINITY Pipeline Update
-date: '2020-11-29
+date: '2020-11-29'
 categories: hematodinium, background
 tags: hematodinium, Trinity, notes
 ---
