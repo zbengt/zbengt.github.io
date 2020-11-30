@@ -6,7 +6,7 @@ categories: hematodinium background
 tags: hematodinium planning notes
 ---
 
-**Reading Update**
+**Reading Update (NOTE: Updated 11/29/20)**
 
 Spent most of the last few weeks diving into the reading, thought I'd document some of the main questions that've arisen! Since there's plenty of lit I haven't had the chance to cover, there's a good chance that these questions have been answered. Just putting them down here to document and highlight for further investigation!
 
@@ -35,6 +35,9 @@ _Hematodinium_ is extremely common in SE Alaska, and growing in prevalence in th
 - I found a 1996 report that described a _hematodinium_ prevalence of 3.5% in Kodiak Tanner crab, indicating they've historically been present
 - However, I also found a ADF&G news release from 2011 warning that _Hematodinium_ had been detected in Deadman Bay (an inlet on the south end of Kodiak), with an infection rate of 0.25%. If such an extremely low level is worthy of a warning, this indicates that _Hematodinium_ is much less common in the waters of Kodiak Island.
 - Investigating this presumed anomaly in distribution w*ould be quite interesting!
+
+**Dinospore Survival and Transcriptomes at Various Temperatures**
+There are established methods for culturing various stages of _Hematodinium_. It could potentially be interesting to look at how dinospores respond to different temperatures. To me, this seems like an extremely promising avenue to pursue for future research. Since dinospores are presumed to be released from the crab as infectious agents, it is possible that temperature dependence could explain some of the seasonal variability we see in a wide variety of infected species. On the other hand, this seems like something that's likely to  already have been looked into
 
 **Miscellaneous Thoughts**
 - Different fjords in SE Alaska have reliably different infection rates, which makes me think that _hematodinium_ likely infects locally. Maybe through a short planktonic stage or a patchily-distributed intermediate host?
