@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Adding Individual Libraries
-date: '2020-12-19'
+date: '2020-12-17'
 categories: hematodinium
 tags: hematodinium, DESeq2, Kallisto
 ---
