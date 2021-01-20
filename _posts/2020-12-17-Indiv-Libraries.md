@@ -12,7 +12,7 @@ First, I finished up my first quarter! Congratulations to me!
 
 Alright, I've made a lot of progress since last time. For the moment, building an index for transcriptome 3.0 is on the backburner - the top priority is just getting a list of differentially-expressed genes. I was able to run Kallisto and produce abundance files for all of the 5 libraries I'm examining. Then I used [this script from Trinity - under "Build Transcript and Gene Expression Matrices -"](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Trinity-Transcript-Quantification) to turn those abundance files into a single matrix. [Link to my script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/Scripts/01_cbai_hemat_pooled_libraries-Copy1.ipynb)
 
-I then read my matrix into R, and analyzed it with DESeq2- [link to my script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/DESeq2_script.R). Now, here's where I ran into problems. As a reminder, here are the libraries I was examining: 
+I then read my matrix into R, and analyzed it with DESeq2- [link to my script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/01_cbai_hemat_pooled_libraries.ipynb). Now, here's where I ran into problems. As a reminder, here are the libraries I was examining: 
 - Library 2 (Day 2 low-temp)
 - Library 4 (Day 2 high-temp)
 - Library 6 (Day 0 ambient)
