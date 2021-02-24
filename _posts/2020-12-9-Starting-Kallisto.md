@@ -8,7 +8,7 @@ tags: hematodinium, Trinity, Kallisto
 
 **TRINITY Pipeline**
 
-Well, there's good news and bad news. The good news is that I don't actually need to run the TRINITY pipeline to create a reference transcriptome - we already have some reference transcriptomes assembled! The bad news is...dang, that's a lot of work down the drain. As a result, I've shifted towards the downstream analyses found in the sidebar of (the Trinity manual)[https://github.com/trinityrnaseq/trinityrnaseq]. 
+Well, there's good news and bad news. The good news is that I don't actually need to run the TRINITY pipeline to create a reference transcriptome - we already have some reference transcriptomes assembled! The bad news is...dang, that's a lot of work down the drain. As a result, I've shifted towards the downstream analyses found in the sidebar of (the Trinity manual)[https://informatics.fas.harvard.edu/best-practices-for-de-novo-transcriptome-assembly-with-trinity.html]. 
 
 General overview of next steps:
 - Select which transcriptomes to examine - not choosing crab- or hemat-only (DONE)

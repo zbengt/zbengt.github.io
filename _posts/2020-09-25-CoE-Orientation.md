@@ -12,10 +12,6 @@ Again, this all refers to my project to locally blast hematodinium transcriptome
 
 Made major progress! Ran the hemat transcriptome through DIAMOND BLASTx and analyzed my results! Everything went quite smoothly, which was great - didn't have too much time, as I've got the College of Environment orientation for most of this afternoon. No major issues to report- all went well
 
-(Unmatched queries for both DIAMOND and NCBI BLASTx and matches that were only made by DIAMOND and NCBI BLASTx)[https://github.com/afcoyle/jupyter-notebook/tree/master/hematodinium-blast-data/results]
-
-(Code for the analyses)[https://github.com/afcoyle/jupyter-notebook/blob/master/hematodinium-blast-data/analyzing-hemat-data.ipynb]
-
 Overall, DIAMOND BLASTx had fewer matched queries than NCBI BLASTx (2501 vs 2862). Generally, the queries were fairly similar - DIAMOND matched 26 queries that NCBI didn't.
 
 Speed-wise, DIAMOND was way, way faster. NCBI took several hours to run, whereas DIAMOND ran in a minute or two. It was astoundingly quick! 

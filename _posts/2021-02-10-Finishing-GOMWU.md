@@ -44,7 +44,7 @@ Here are my results for each comparison:
 
 **Ambient Day 0+2+17 + Elevated Day 0 + Lowered Day 0 vs. Elevated Day 2**
 
-[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/GOMWU_output/amb0217_elev0_low0_vs_elev2.png)
+[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/GOMWU_output/amb0217_elev0_low0_vselev2.png)
 
 [Table of reformatted and augmented GO terms](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/output/GO-MWU_output/amb0217_elev0_low0_vs_elev2/BP_amb0217_elev0_low0_vs_elev2_pvals.csv)
 
