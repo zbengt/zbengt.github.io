@@ -10,15 +10,16 @@ tags: hematodinium, DESeq2, Kallisto
 
 Yesterday, I described how I planned to start with a comparison of Day 0 and Day 17 libraries at ambient temperatures. I was able to complete that! Methods followed the same protocol outlined previously - use Kallisto to create pseudoalignments for libraries, use a script from Trinity pipeline to create matrix of counts, put matrix of counts into DESeq2 and analyze. Here are links to the following results:
 
-- [My DESeq2 script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/03_kallisto_to_deseq_to_accessionIDs.R)
--[Table of genes with significantly different expressions (adjusted pval <= 0.005)](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/DEGlist.txt), [same table but with column headers](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/DEGlist_wcols.txt)
+- [My DESeq2 script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/02_kallisto_to_deseq_to_accessionIDs.R)
+
+- [Results](https://github.com/afcoyle/hemat_bairdii_transcriptome/tree/main/graphs/DESeq2_output), which contain the following:
+- Table of genes with significantly different expressions (adjusted pval <= 0.005), both with and without column headers
 - A variety of MA plots with the following conditions:
-    - [All results](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/allres_MAplot.png)
-    - [All results, LFC estimates shrunk using apeglm](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/allres_shrunken_MAplot.png)
-    - [Results with a p-value <= 0.05](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/res05_MAplot.png)
-    - [All results, with p-values <= 0.005 highlighted](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/normalizedcts_v_log2foldchange.png)
-- [PCA plot](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/PCA_plot.png)
-- [Dispersion estimates](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/dispersion_estimates.png)
+    - All results
+    - All results, LFC estimates shrunk using apeglm
+    - Results with a p-value <= 0.05
+    - All results, with p-values <= 0.005 highlighted
+- Dispersion estimates
 
 The most important of those is likely the table of genes with significantly different expressions, but before I do much with that, I'm going to do the next 3 comparisons, as follow:
 - Day 0+2 Elevated vs Low (127/173/72/272/280/294 vs 151/254)

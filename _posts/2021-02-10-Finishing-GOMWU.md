@@ -32,7 +32,7 @@ Here are my results for each comparison:
 
 **Elevated Day 2 vs. Ambient Day 0+2, individual libraries**
 
-[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/GOMWU_output/elev2_vs_amb02_indiv_only.png).
+[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/GOMWU_output/elev2_vs_amb02_indiv.png).
 - Red = up-regulated, blue = down-regulated (up-regulated = higher at elevated)
 - Fraction: number of "good candidates" relative to total num of genes in category. A "good gene" is one with an unadjusted p-value <0.05.
 

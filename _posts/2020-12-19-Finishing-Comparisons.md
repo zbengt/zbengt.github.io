@@ -25,51 +25,16 @@ As before, the comparisons are the following:
 
 Alright, here's a link to my results from the DESeq analyses. Again, the most important is the table of genes with significantly different expressions.
 
-[Here's the script used to generate all results](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/03_kallisto_to_deseq_to_accessionIDs.R)
+[Here's the script used to generate all results](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/02_kallisto_to_deseq_to_accessionIDs.R)
 
-**Day 0 Ambient vs. Day 17 Ambient**
-
-(also posted Day 0 Amb vs. Day 17 Amb results  yesterday, posting here for completion)
-- [My DESeq2 script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/Scripts/day0_v_day17_ambient_comparison.R)
--[Table of genes with significantly different expressions (adjusted pval <= 0.005)](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/DEGlist.txt), [same table but with column headers](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/DEGlist_wcols.txt)
+- [Results](https://github.com/afcoyle/hemat_bairdii_transcriptome/tree/main/graphs/DESeq2_output), which contain the following:
+- Table of genes with significantly different expressions (adjusted pval <= 0.005), both with and without column headers
 - A variety of MA plots with the following conditions:
-    - [All results](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/allres_MAplot.png)
-    - [All results, LFC estimates shrunk using apeglm](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/allres_shrunken_MAplot.png)
-    - [Results with a p-value <= 0.05](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/res05_MAplot.png)
-    - [All results, with p-values <= 0.005 highlighted](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/normalizedcts_v_log2foldchange.png)
-- [PCA plot](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/PCA_plot.png)
-- [Dispersion estimates](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/day0_day17_ambient/dispersion_estimates.png)
-
-**Day 0+2 Elevated vs. Day 0+2 Low**
--[Table of genes with significantly different expressions (adjusted pval <= 0.005)](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_low_day02/DEGlist.txt), [same table but with column headers](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_low_day02/DEGlist_wcols.txt)
-- A variety of MA plots with the following conditions:
-    - [All results](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_low_day02/allres_MAplot.png)
-    - [All results, LFC estimates shrunk using apeglm](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_low_day02/allres_shrunken_MAplot.png)
-    - [Results with a p-value <= 0.05](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_low_day02/res05_MAplot.png)
-    - [All results, with p-values <= 0.005 highlighted](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_low_day02/normalizedcts_v_log2foldchange.png)
-- [PCA plot](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_low_day02/PCA_plot.png)
-- [Dispersion estimates](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_low_day02/dispersion_estimates.png)
-
-**Day 0+2 Elevated vs Day 0+2 Ambient**
--[Table of genes with significantly different expressions (adjusted pval <= 0.005)](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_amb_day02/DEGlist.txt), [same table but with column headers](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_amb_day02/DEGlist_wcols.txt)
-- A variety of MA plots with the following conditions:
-    - [All results](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_amb_day02/allres_MAplot.png)
-    - [All results, LFC estimates shrunk using apeglm](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_amb_day02/allres_shrunken_MAplot.png)
-    - [Results with a p-value <= 0.05](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_amb_day02/res05_MAplot.png)
-    - [All results, with p-values <= 0.005 highlighted](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_amb_day02/normalizedcts_v_log2foldchange.png)
-- [PCA plot](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_amb_day02/PCA_plot.png)
-- [Dispersion estimates](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/elev_v_amb_day02/dispersion_estimates.png)
-
-**Day 0+2 Ambient vs Day 0+2 Low**
--[Table of genes with significantly different expressions (adjusted pval <= 0.005)](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/amb_v_low_day02/DEGlist.txt), [same table but with column headers](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/amb_v_low_day02/DEGlist_wcols.txt)
-- A variety of MA plots with the following conditions:
-    - [All results](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/amb_v_low_day02/allres_MAplot.png)
-    - [All results, LFC estimates shrunk using apeglm](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/amb_v_low_day02/allres_shrunken_MAplot.png)
-    - [Results with a p-value <= 0.05](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/amb_v_low_day02/res05_MAplot.png)
-    - [All results, with p-values <= 0.005 highlighted](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/amb_v_low_day02/normalizedcts_v_log2foldchange.png)
-- [PCA plot](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/amb_v_low_day02/PCA_plot.png)
-- [Dispersion estimates](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/amb_v_low_day02/dispersion_estimates.png)
-
+    - All results
+    - All results, LFC estimates shrunk using apeglm
+    - Results with a p-value <= 0.05
+    - All results, with p-values <= 0.005 highlighted
+- Dispersion estimates
 
 
 
