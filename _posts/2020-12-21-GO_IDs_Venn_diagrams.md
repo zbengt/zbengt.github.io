@@ -10,7 +10,7 @@ tags: hematodinium, GO IDs
 
 My analysis prior to this used DESeq2 to obtain a series of tables of genes with significantly-different expressions for each of my four comparisons.
 
-I wrote a [script in R](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/02_kallisto_to_deseq_to_accessionIDs.R) that took in each DESeq2 output file, matched it against [this annotated transcriptome](https://gannet.fish.washington.edu/Atumefaciens/20200519_cbai_diamond_blastx_transcriptome_v3.0/20200518.C_bairdi.Trinity.blastx.outfmt6), and produced a  newline-separated file of UniProt accessions. I then took each newline-separated file and put it into [this Bash script from Sam](https://github.com/RobertsLab/code/blob/master/script-box/uniprot2go.sh), which retrieved the Gene Ontology terms for each Accession ID. 
+I wrote a [script in R](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/02_kallisto_to_deseq_to_accessionIDs.Rmd) that took in each DESeq2 output file, matched it against [this annotated transcriptome](https://gannet.fish.washington.edu/Atumefaciens/20200519_cbai_diamond_blastx_transcriptome_v3.0/20200518.C_bairdi.Trinity.blastx.outfmt6), and produced a  newline-separated file of UniProt accessions. I then took each newline-separated file and put it into [this Bash script from Sam](https://github.com/RobertsLab/code/blob/master/script-box/uniprot2go.sh), which retrieved the Gene Ontology terms for each Accession ID. 
 
 This is progressing fairly well!
 Next steps are as follows:

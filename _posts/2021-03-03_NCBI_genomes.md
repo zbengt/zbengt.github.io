@@ -18,13 +18,17 @@ In my last post, I characterized the method of choice for obtaining taxa informa
 
 2. Obtain a FASTA file of all DEGs for our two meaningful conditions - elev day 2 vs. amb. day 2, and elev day 0 vs. elev day 2 - by cross-referencing transcript IDs and transcriptome 2.0
 
-3. BLASTn those FASTA files twice - once against all Alveolata sequences and again against our Arthropoda sequences
+3. BLASTn [those obtained FASTA files](https://github.com/afcoyle/hemat_bairdii_transcriptome/tree/main/output/BLASTn/input_seqs) twice - once against all Alveolata sequences and again against our Arthropoda sequences
 
 4. Figure out a good e-value to set as our bar for taxa determination
 
 5. Within each set of DEGs, see how many sequences appear as matches for both Alveolata and Arthropoda, and how many failed to match either
 
-All five of the above steps were completed using [this script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/12_DEG_blast.ipynb). Here's what we got.
+All five of the above steps were completed using [this script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/12_DEG_blast.ipynb). 
+ 
+[Here are my results for the alveolata BLAST](https://github.com/afcoyle/hemat_bairdii_transcriptome/tree/main/output/BLASTn/alveolata_publicseqs), and [for the arthropoda BLAST](https://github.com/afcoyle/hemat_bairdii_transcriptome/tree/main/output/BLASTn/arthropoda_publicseqs)
+
+Here's what we got.
 
 
 |                                                      | Amb. Day 2 vs. Elev. Day 2 | Elev. Day 0 vs. Elev. Day 2 |

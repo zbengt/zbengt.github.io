@@ -12,7 +12,7 @@ As of my last post (yesterday), I was trying to figure out a way to rapidly obta
 
 ## New Script for Uniprot to GO
 
-I created [an R script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/03_uniprot_to_GO_method1.R) for obtaining GO terms from accession IDs. Downside: it requires you to manually download the SwissProt database - with all GO terms included - from https://www.uniprot.org/uniprot/. Upside: it's much, much, much faster. It ran in a few minutes, which by my calculation, is a bit faster than 8 days.
+I created [an R script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/03_uniprot_to_GO_method1.Rmd) for obtaining GO terms from accession IDs. Downside: it requires you to manually download the SwissProt database - with all GO terms included - from https://www.uniprot.org/uniprot/. Upside: it's much, much, much faster. It ran in a few minutes, which by my calculation, is a bit faster than 8 days.
 
 After getting GO terms, you need to remove duplicate lines prior to inputting to GO-MWU. So after using the R script (if you choose that path), switch over to [the other script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/03_uniprot_to_GO_altmethod.ipynb) and begin running the analyses partway down the page. Everything is clearly marked, it should be difficult to screw up. 
 

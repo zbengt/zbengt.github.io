@@ -25,7 +25,7 @@ As before, the comparisons are the following:
 
 Alright, here's a link to my results from the DESeq analyses. Again, the most important is the table of genes with significantly different expressions.
 
-[Here's the script used to generate all results](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/02_kallisto_to_deseq_to_accessionIDs.R)
+[Here's the script used to generate all results](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/02_kallisto_to_deseq_to_accessionIDs.Rmd)
 
 - [Results](https://github.com/afcoyle/hemat_bairdii_transcriptome/tree/main/graphs/DESeq2_output), which contain the following:
 - Table of genes with significantly different expressions (adjusted pval <= 0.005), both with and without column headers
