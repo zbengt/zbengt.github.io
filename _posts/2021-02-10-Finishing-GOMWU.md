@@ -8,15 +8,15 @@ tags: GO-MWU
 
 ## Speeding Things Up
 
-As of my last post (yesterday), I was trying to figure out a way to rapidly obtain large numbers of GO IDs. Last time, I used [Sam's shell script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/04_uniprot2go.sh) by calling it inside [this script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/03_uniprot_to_GO_altmethod.ipynb). However, Sam's script took an extremely long time to run. A rough ballpark: for my 2 analyses (each with ~120,000 accession IDs), it would take a total of about 8 days on my local machine. That's a huge pipeline bottleneck, and so we found an alternative.
+As of my last post (yesterday), I was trying to figure out a way to rapidly obtain large numbers of GO IDs. Last time, I used [Sam's shell script](https://github.com/RobertsLab/code/blob/master/script-box/uniprot2go.sh) by calling it inside a Jupyter notebook. However, Sam's script took an extremely long time to run. A rough ballpark: for my 2 analyses (each with ~120,000 accession IDs), it would take a total of about 8 days on my local machine. That's a huge pipeline bottleneck, and so we found an alternative.
 
 ## New Script for Uniprot to GO
 
-I created [an R script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/03_uniprot_to_GO_method1.Rmd) for obtaining GO terms from accession IDs. Downside: it requires you to manually download the SwissProt database - with all GO terms included - from https://www.uniprot.org/uniprot/. Upside: it's much, much, much faster. It ran in a few minutes, which by my calculation, is a bit faster than 8 days.
+I created [an R script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/13_uniprot_to_GO.Rmd) for obtaining GO terms from accession IDs. Downside: it requires you to manually download the SwissProt database - with all GO terms included - from https://www.uniprot.org/uniprot/. Upside: it's much, much, much faster. It ran in a few minutes, which by my calculation, is a bit faster than 8 days.
 
-After getting GO terms, you need to remove duplicate lines prior to inputting to GO-MWU. So after using the R script (if you choose that path), switch over to [the other script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/03_uniprot_to_GO_altmethod.ipynb) and begin running the analyses partway down the page. Everything is clearly marked, it should be difficult to screw up. 
+After getting GO terms, you need to remove duplicate lines prior to inputting to GO-MWU. So after using the R script (if you choose that path), switch over to [the other script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/14_eliminate_duplicates.ipynb) and begin running the analyses. 
 
-Anyway, the [old method](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/03_uniprot_to_GO_altmethod.ipynb) is probably still preferable if you're looking at small numbers of genes or have a really fast internet connection. Otherwise, the new R script is likely preferable.
+Using Sam's shell script is probably still preferable if you're looking at small numbers of genes or have a really fast internet connection. Otherwise, the new R script is likely preferable.
 
 ## Running GO-MWU
 
@@ -32,25 +32,25 @@ Here are my results for each comparison:
 
 **Elevated Day 2 vs. Ambient Day 0+2, individual libraries**
 
-[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/GOMWU_output/elev2_vs_amb02_indiv.png).
+[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/graphs/GOMWU_output/cbaihemat_transcriptomev2.0/elev2_vs_amb02_indiv.png.
 - Red = up-regulated, blue = down-regulated (up-regulated = higher at elevated)
 - Fraction: number of "good candidates" relative to total num of genes in category. A "good gene" is one with an unadjusted p-value <0.05.
 
-[Table of reformatted and augmented GO terms](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/output/GO-MWU_output/elev2_vs_amb02_indiv_only/BP_elev2_vs_amb02_indiv_only_pvals.csv)
+[Table of reformatted and augmented GO terms](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/elev2_vs_amb02_indiv_only/BP_elev2_vs_amb02_indiv_only_pvals.csv)
 
-[Dissimilarity matrix of GO categories](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/output/GO-MWU_output/elev2_vs_amb02_indiv_only/dissim_BP_elev2_vs_amb02_indiv_only_pvals.csv_elev2_vs_amb02_indiv_only_GOIDs_norepeats.txt)
+[Dissimilarity matrix of GO categories](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/elev2_vs_amb02_indiv_only/dissim_BP_elev2_vs_amb02_indiv_only_pvals.csv_elev2_vs_amb02_indiv_only_GOIDs_norepeats.txt)
 
-[Results of MWU test](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/output/GO-MWU_output/elev2_vs_amb02_indiv_only/MWU_BP_elev2_vs_amb02_indiv_only_pvals.csv)
+[Results of MWU test](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/elev2_vs_amb02_indiv_only/MWU_BP_elev2_vs_amb02_indiv_only_pvals.csv)
 
 **Ambient Day 0+2+17 + Elevated Day 0 + Lowered Day 0 vs. Elevated Day 2**
 
-[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/GOMWU_output/amb0217_elev0_low0_vselev2.png)
+[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/graphs/GOMWU_output/cbaihemat_transcriptomev2.0/amb0217_elev0_low0_vselev2.png)
 
-[Table of reformatted and augmented GO terms](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/output/GO-MWU_output/amb0217_elev0_low0_vs_elev2/BP_amb0217_elev0_low0_vs_elev2_pvals.csv)
+[Table of reformatted and augmented GO terms](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/amb0217_elev0_low0_vs_elev2/BP_amb0217_elev0_low0_vs_elev2_pvals.csv)
 
-[Dissimilarity matrix of GO categories](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/output/GO-MWU_output/amb0217_elev0_low0_vs_elev2/dissim_BP_amb0217_elev0_low0_vs_elev2_pvals.csv_amb0217_elev0_low0_vs_elev2_GOIDs_norepeats.txt)
+[Dissimilarity matrix of GO categories](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/amb0217_elev0_low0_vs_elev2/dissim_BP_amb0217_elev0_low0_vs_elev2_pvals.csv_amb0217_elev0_low0_vs_elev2_GOIDs_norepeats.txt)
 
-[Results of MWU test](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/output/GO-MWU_output/amb0217_elev0_low0_vs_elev2/MWU_BP_amb0217_elev0_low0_vs_elev2_pvals.csv)
+[Results of MWU test](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/amb0217_elev0_low0_vs_elev2/MWU_BP_amb0217_elev0_low0_vs_elev2_pvals.csv)
 
 ## Quick Conclusions:
 

@@ -10,9 +10,9 @@ tags: hematodinium, DESeq2, Kallisto
 
 Yesterday, I described how I planned to start with a comparison of Day 0 and Day 17 libraries at ambient temperatures. I was able to complete that! Methods followed the same protocol outlined previously - use Kallisto to create pseudoalignments for libraries, use a script from Trinity pipeline to create matrix of counts, put matrix of counts into DESeq2 and analyze. Here are links to the following results:
 
-- [My DESeq2 script](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/scripts/02_kallisto_to_deseq_to_accessionIDs.Rmd)
+- [My DESeq2 script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/12_kallisto_to_deseq_to_accessionIDs.Rmd)
 
-- [Results](https://github.com/afcoyle/hemat_bairdii_transcriptome/tree/main/graphs/DESeq2_output), which contain the following:
+- [Results](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/graphs/DESeq2_output/cbaihemat_transcriptomev2.0), which contain the following:
 - Table of genes with significantly different expressions (adjusted pval <= 0.005), both with and without column headers
 - A variety of MA plots with the following conditions:
     - All results

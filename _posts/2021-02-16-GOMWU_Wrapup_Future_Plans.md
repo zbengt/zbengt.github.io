@@ -18,7 +18,7 @@ I've been continuing on a bunch of different analyses and running them through m
 - Ambient Day 2 vs. Elevated Day 2 (individual libraries only)
 - Elevated Day 0 vs. Elevated Day 2 (individual libraries only)
 
-[Here's a link to all visualizations of significant GO categories](https://github.com/afcoyle/hemat_bairdii_transcriptome/tree/main/graphs/GOMWU_output), and [here's a link to the output from GO-MWU](https://github.com/afcoyle/hemat_bairdii_transcriptome/tree/main/output/GO-MWU_output).
+[Here's a link to all visualizations of significant GO categories](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/graphs/GOMWU_output/cbaihemat_transcriptomev2.0), and [here's a link to the output from GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0).
 
 
 Findings from GO-MWU analyses:
@@ -33,7 +33,7 @@ At this point, the project is splitting along two general lines - DEG analysis a
 
 ### DEG analysis:
 
-The goal of this is to investigate the role of temperature on _Hematodinium_ and _C. bairdi_ expression. Lists of DEGs will be produced for two particularly relevant comparisons - [Ambient Day 2 vs. Elevated Day 2 (individual libraries only)](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/DESeq2_output/amb2_vs_elev2_indiv/DEGlist_wcols.txt) and [Elevated Day 0 vs. Elevated Day 2 (individual libraries only)](https://github.com/afcoyle/hemat_bairdii_transcriptome/blob/main/graphs/DESeq2_output/elev0_vs_elev2_indiv/DEGlist_wcols.txt). Both contrast samples taken at ambient temperatures vs. samples taken at elevated temperatures. 
+The goal of this is to investigate the role of temperature on _Hematodinium_ and _C. bairdi_ expression. Lists of DEGs will be produced for two particularly relevant comparisons - [Ambient Day 2 vs. Elevated Day 2 (individual libraries only)](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/graphs/DESeq2_output/cbaihemat_transcriptomev2.0/amb2_vs_elev2_indiv/DEGlist_wcols.txt) and [Elevated Day 0 vs. Elevated Day 2 (individual libraries only)](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/graphs/DESeq2_output/cbaihemat_transcriptomev2.0/elev0_vs_elev2_indiv/DEGlist_wcols.txt). Both contrast samples taken at ambient temperatures vs. samples taken at elevated temperatures. 
 
 We will take these DEGs and BLAST them against an NCBI database of all _Alveolata_ sequences (_Alveolata_ is the superphylum containing _Hematodinium_, as there are relatively few _Hematodinium_ sequences). From there, we can specifically investigate differentially-expressed _Hematodinium_ genes on an individual level.
 
