@@ -24,7 +24,7 @@ I'm performing 4 total comparisons between different groups of infected crab
 
 Ideally would have had a Day 2 ambient library, but no such library existed. And since the temperature wasn't actually changed for the ambient group, transcriptomes from Day 0 should be more or less the same as those from Day 2.
 
-Library info found [here](https://github.com/RobertsLab/paper-tanner-crab/blob/master/supplementary-information/S2-RNAsequ-libraries.csv), sequences gathered from Grace's Google Sheets master doc (title is C_bairdi_RNAseq)
+Library info found [here](https://github.com/RobertsLab/paper-tanner-crab/blob/master/supplementary-information/S1-RNAsequ-libraries.csv), sequences gathered from Grace's Google Sheets master doc (title is C_bairdi_RNAseq)
 
 The Trinity pipeline takes an extremely, extremely long time to run (upwards of 80 hours per sample). I'm still waiting for my first run to finish, but subsequent comparisons will be made using the lab's computing resources. First I need to figure out how to remote into them - that's the next task ahead!
 
