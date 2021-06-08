@@ -16,10 +16,10 @@ navbar-links:
   CV: "cv/Coyle_CV_Nov_2020.pdf"
   About: "aboutme"
   Lab Notebook: "notebook"
+  Bitter Crab blog: "https://bittercrab.wordpress.com/"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - DecaPOD: "https://www.listennotes.com/podcasts/decapod-bittercrabscience-grace-crandall-uf8bqMArwV1/"
+    - Roberts Lab handbook: "https://robertslab.github.io/resources/"
 
 # --- Logo --- #
 
