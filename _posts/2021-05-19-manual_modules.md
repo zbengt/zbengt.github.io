@@ -40,6 +40,9 @@ There is an element of subjectivity that I'm not a huge fan of when it comes to 
 
 As an important note, each cluster and accompanying heatmap is labeled with a two- or three-letter string. These correspond to the subjective levels of expression present. A module that goes low expression on Day 0 -> high expression on Day 2 -> medium expression on Day 17 will be labeled cluster_LHM.txt and cluster_LHM_heatmap.png. Elevated-temperature crab only have 2 timepoints, and therefore only 2 clusters (LH and HL).
 
+
+[NOTE: These labels were later changed to only describe overall expression patterns - see next blog post for details]
+
 I ran the full script for hemat_transcriptomev1.6 and cbai_transcriptomev4.0. Output from my manual clustering is available [here](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/output/manual_clustering), with each transcriptome in a separate directory, and then each crab in a separate sub-directory. However, when I try this with cbai_transcriptomev2.0, Rstudio just refuses to run it - not enough memory on my local machine. 
 
 To solve this, it's back to RStudio on Mox. But first, I need to figure out how to install the `pheatmap` package - shouldn't be too tricky for, say, Sam, but I did spend a few hours today trying and failing to figure it out. Hopefully I can get some help and keep moving along! 
