@@ -14,7 +14,7 @@ Since then, I repeated the same process, but with a _C. bairdi_ - specific trans
 
 Scripts available as follows:
 
-[Creating BLASTx index for cbai_transcriptomev4.0](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/40_cbai4.0_indexcreation%20-%20Copy.ipynb)
+[Creating BLASTx index for cbai_transcriptomev4.0](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/4_0_cbai4.0_indexcreation.ipynb)
 
 [Running kallisto](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/4_1_download_libraries_run_kallisto.ipynb)
 
