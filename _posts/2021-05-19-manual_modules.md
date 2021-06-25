@@ -34,7 +34,7 @@ There is a LOT of data here. Nothing looks particularly illuminating at first, b
 
 For the sake of completeness, I downloaded and aligned the libraries for crabs D and E (previously excluded from this analysis as they were uninfected) and aligned them to cbai_transcriptomev4.0. As they were uninfected, it didn't make much sense to align them to a Hematodinium-only or an unfiltered transcriptome. 
 
-Regardless, scripts are available for [cbai_transcriptomev2.0](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/71_manual_clustering_cbaiv2.0.Rmd), [hemat_transcriptomev1.6](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/72_manual_clustering_hematv1.6.Rmd), and for [cbai_transcriptomev4.0](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/73_manual_clustering_cbaiv4.0.Rmd).
+Regardless, scripts are available for [cbai_transcriptomev2.0](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/7_1_manual_clustering_cbaiv2.0.Rmd), [hemat_transcriptomev1.6](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/7_2_manual_clustering_hematv1.6.Rmd), and for [cbai_transcriptomev4.0](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/7_3_manual_clustering_cbaiv4.0.Rmd).
 
 There is an element of subjectivity that I'm not a huge fan of when it comes to this method, as it requires me to determine how many modules are apparent in each heat map. However, it is an interesting way to track individual crab over time, and I'm intrigued by what it might reveal.
 

@@ -24,7 +24,7 @@ In my last post, I characterized the method of choice for obtaining taxa informa
 
 5. Within each set of DEGs, see how many sequences appear as matches for both Alveolata and Arthropoda, and how many failed to match either
 
-All five of the above steps were completed using [this script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/22_DEG_blast.ipynb). 
+All five of the above steps were completed using [this script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/2_2_DEG_blast.ipynb). 
  
 [Here are my results for the alveolata BLAST](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/output/BLASTs/alveolata_publicseqs), and [for the arthropoda BLAST](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/output/BLASTs/arthropoda_publicseqs)
 
@@ -56,5 +56,5 @@ As a quick initial scan, this...is pretty good!! Definitely a good guide to whic
 
 5. Potential alternative step if needed: Take all _C. bairdi_ libraries of uninfected crab, and assemble a _C. bairdi_ transcriptome. Use that to determine which sequences are _Hematodinium_ and which are _C. bairdi_.
 
-Steps 1-2 have already been completed - a script for those, including all data locations, is available [here](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/24_ncbi_genome_blasts.ipynb)! The slurm scripts are currently running on Mox. Once they're complete, time to move on to Step 3!
+Steps 1-2 have already been completed - a script for those, including all data locations, is available [here](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/2_4_ncbi_genome_blasts.ipynb)! The slurm scripts are currently running on Mox. Once they're complete, time to move on to Step 3!
 

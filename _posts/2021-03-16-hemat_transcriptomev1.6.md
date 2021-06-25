@@ -16,7 +16,7 @@ Here were my planned steps last time:
 
 3. Use those two BLAST results to determine which genes are _Hematodinium_ in origin and which are _C. bairdi_ for all of Transcriptome 2.0
 
-I completed all steps (plus a few tBLASTx of transcriptome 2.0 against _Amoebophrya_ genome), but ran into a major problem. Specifically, not enough of our sequences are finding matches - after combining all matches for the _C. opilio_ and _Amoebophrya sp._ genomes, only around half were matched, even after dropping the e-value bar all the way down to 10^-2 (and that's with double-counting all sequences that matched to both genomes!). Link to all scripts and the specific numbers of matches available [here](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/24_ncbi_genome_blasts.ipynb)
+I completed all steps (plus a few tBLASTx of transcriptome 2.0 against _Amoebophrya_ genome), but ran into a major problem. Specifically, not enough of our sequences are finding matches - after combining all matches for the _C. opilio_ and _Amoebophrya sp._ genomes, only around half were matched, even after dropping the e-value bar all the way down to 10^-2 (and that's with double-counting all sequences that matched to both genomes!). Link to all scripts and the specific numbers of matches available [here](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/2_4_ncbi_genome_blasts.ipynb)
 
 ## So what now?
 
@@ -38,19 +38,19 @@ As I mentioned, the plan is largely the same as that of Analysis 1. Put librarie
 
 I've already progressed all the way through GO-MWU! Scripts available as follows:
 
-[Creating BLASTx index for hemat_transcriptomev1.6](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/30_hemat1.6_indexcreation.ipynb)
+[Creating BLASTx index for hemat_transcriptomev1.6](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_0_hemat1.6_indexcreation.ipynb)
 
-[Running kallisto](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/31_download_libraries_run_kallisto.ipynb)
+[Running kallisto](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_1_download_libraries_run_kallisto.ipynb)
 
-[Running DESeq2](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/32_kallisto_to_deseq_to_accessionIDs.Rmd)
+[Running DESeq2](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_2_kallisto_to_deseq_to_accessionIDs.Rmd)
 
-[Obtaining GO terms](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/33_uniprot_to_GO.Rmd)
+[Obtaining GO terms](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_3_uniprot_to_GO.Rmd)
 
-[Preparing one of the inputs for GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/34_eliminate_duplicates.ipynb)
+[Preparing one of the inputs for GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_4_eliminate_duplicates.ipynb)
 
-[Preparing the other input for GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/35_GO-MWU_prep.Rmd)
+[Preparing the other input for GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_5_GO-MWU_prep.Rmd)
 
-[Running GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/36_running_GO-MWU/36_running_GO-MWU.R)
+[Running GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_6_running_GO-MWU/36_running_GO-MWU.R)
 
 Two key comparisons were made - Elevated Day 0 vs. Elevated Day 2, individual libraries only (remember, Elevated Day 0 samples were taken prior to exposure to elevated-temperature water), and Ambient Day 2 vs. Elevated Day 2, individual libraries only. All 3 groups (Elev. Day 0, Elev. Day 2, Amb. Day 2) have 3 libraries.
 

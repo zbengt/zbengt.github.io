@@ -12,9 +12,9 @@ As of my last post (yesterday), I was trying to figure out a way to rapidly obta
 
 ## New Script for Uniprot to GO
 
-I created [an R script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/13_uniprot_to_GO.Rmd) for obtaining GO terms from accession IDs. Downside: it requires you to manually download the SwissProt database - with all GO terms included - from https://www.uniprot.org/uniprot/. Upside: it's much, much, much faster. It ran in a few minutes, which by my calculation, is a bit faster than 8 days.
+I created [an R script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/1_3_uniprot_to_GO.Rmd) for obtaining GO terms from accession IDs. Downside: it requires you to manually download the SwissProt database - with all GO terms included - from https://www.uniprot.org/uniprot/. Upside: it's much, much, much faster. It ran in a few minutes, which by my calculation, is a bit faster than 8 days.
 
-After getting GO terms, you need to remove duplicate lines prior to inputting to GO-MWU. So after using the R script (if you choose that path), switch over to [the other script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/14_eliminate_duplicates.ipynb) and begin running the analyses. 
+After getting GO terms, you need to remove duplicate lines prior to inputting to GO-MWU. So after using the R script (if you choose that path), switch over to [the other script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/1_4_eliminate_duplicates.ipynb) and begin running the analyses. 
 
 Using Sam's shell script is probably still preferable if you're looking at small numbers of genes or have a really fast internet connection. Otherwise, the new R script is likely preferable.
 
