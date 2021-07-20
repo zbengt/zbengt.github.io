@@ -32,25 +32,25 @@ Here are my results for each comparison:
 
 **Elevated Day 2 vs. Ambient Day 0+2, individual libraries**
 
-[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/graphs/GOMWU_output/cbaihemat_transcriptomev2.0/elev2_vs_amb02_indiv.png.
+[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/graphs/GOMWU_output/cbai_transcriptomev2.0/elev2_vs_amb02_indiv.png.
 - Red = up-regulated, blue = down-regulated (up-regulated = higher at elevated)
 - Fraction: number of "good candidates" relative to total num of genes in category. A "good gene" is one with an unadjusted p-value <0.05.
 
-[Table of reformatted and augmented GO terms](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/elev2_vs_amb02_indiv_only/BP_elev2_vs_amb02_indiv_only_pvals.csv)
+[Table of reformatted and augmented GO terms](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbai_transcriptomev2.0/elev2_vs_amb02_indiv_only/BP_elev2_vs_amb02_indiv_only_pvals.csv)
 
-[Dissimilarity matrix of GO categories](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/elev2_vs_amb02_indiv_only/dissim_BP_elev2_vs_amb02_indiv_only_pvals.csv_elev2_vs_amb02_indiv_only_GOIDs_norepeats.txt)
+[Dissimilarity matrix of GO categories](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbai_transcriptomev2.0/elev2_vs_amb02_indiv_only/dissim_BP_elev2_vs_amb02_indiv_only_pvals.csv_elev2_vs_amb02_indiv_only_GOIDs_norepeats.txt)
 
-[Results of MWU test](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/elev2_vs_amb02_indiv_only/MWU_BP_elev2_vs_amb02_indiv_only_pvals.csv)
+[Results of MWU test](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbai_transcriptomev2.0/elev2_vs_amb02_indiv_only/MWU_BP_elev2_vs_amb02_indiv_only_pvals.csv)
 
 **Ambient Day 0+2+17 + Elevated Day 0 + Lowered Day 0 vs. Elevated Day 2**
 
-[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/graphs/GOMWU_output/cbaihemat_transcriptomev2.0/amb0217_elev0_low0_vselev2.png)
+[Hierarchical clustering tree](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/graphs/GOMWU_output/cbai_transcriptomev2.0/amb0217_elev0_low0_vselev2.png)
 
-[Table of reformatted and augmented GO terms](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/amb0217_elev0_low0_vs_elev2/BP_amb0217_elev0_low0_vs_elev2_pvals.csv)
+[Table of reformatted and augmented GO terms](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbai_transcriptomev2.0/amb0217_elev0_low0_vs_elev2/BP_amb0217_elev0_low0_vs_elev2_pvals.csv)
 
-[Dissimilarity matrix of GO categories](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/amb0217_elev0_low0_vs_elev2/dissim_BP_amb0217_elev0_low0_vs_elev2_pvals.csv_amb0217_elev0_low0_vs_elev2_GOIDs_norepeats.txt)
+[Dissimilarity matrix of GO categories](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbai_transcriptomev2.0/amb0217_elev0_low0_vs_elev2/dissim_BP_amb0217_elev0_low0_vs_elev2_pvals.csv_amb0217_elev0_low0_vs_elev2_GOIDs_norepeats.txt)
 
-[Results of MWU test](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbaihemat_transcriptomev2.0/amb0217_elev0_low0_vs_elev2/MWU_BP_amb0217_elev0_low0_vs_elev2_pvals.csv)
+[Results of MWU test](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/GO-MWU_output/cbai_transcriptomev2.0/amb0217_elev0_low0_vs_elev2/MWU_BP_amb0217_elev0_low0_vs_elev2_pvals.csv)
 
 ## Quick Conclusions:
 

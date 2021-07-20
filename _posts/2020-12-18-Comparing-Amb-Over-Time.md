@@ -12,7 +12,7 @@ Yesterday, I described how I planned to start with a comparison of Day 0 and Day
 
 - [My DESeq2 script](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/1_2_kallisto_to_deseq_to_accessionIDs.Rmd)
 
-- [Results](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/graphs/DESeq2_output/cbaihemat_transcriptomev2.0), which contain the following:
+- [Results](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/graphs/DESeq2_output/cbai_transcriptomev2.0), which contain the following:
 - Table of genes with significantly different expressions (adjusted pval <= 0.005), both with and without column headers
 - A variety of MA plots with the following conditions:
     - All results

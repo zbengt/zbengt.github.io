@@ -26,7 +26,7 @@ The scripts will be more or less identical to our past ones. For notation, we're
 
 **Note**: Scripts are annotated analysis/script number. Analysis 1, Script 5 = 15_script_title.
 
-Analysis 1: Scripts 10-19. Putting mixed _C. bairdi_ / _Hematodinium_ transcriptome, specifically [cbai_transcriptomev2.0](https://robertslab.github.io/sams-notebook/2020/05/02/Transcriptome-Assembly-C.bairdi-All-RNAseq-Data-Without-Taxonomic-Filters-with-Trinity-on-Mox.html), available via [Genomic Resources](https://robertslab.github.io/resources/Genomic-Resources.html), through the above pipeline (kallisto -> DESeq2 -> GO-MWU)
+Analysis 1: Scripts 10-19. Putting mixed _C. bairdi_ / _Hematodinium_ transcriptome, specifically [cbai_transcriptomev2.0](https://robertslab.github.io/sams-notebook/2020/05/02/Transcriptome-Assembly-C.bairdi-All-RNAseq-Data-Without-Taxonomic-Filters-with-Trinity-on-Mox.html), available via [Genomic Resources](https://robertslab.github.io/resources/Genomic-Resources/), through the above pipeline (kallisto -> DESeq2 -> GO-MWU)
 
 Analysis 2: Scripts 20-29: Misc analyses exploring output from Analysis 1, trying to determine what sequences are _Hematodinium_ and what sequences are _C. bairdi_.
 
