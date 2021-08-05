@@ -79,7 +79,7 @@ hemat_transcriptomev1.6 seems to show some kind of correlation between infection
 
 Anyways, we have a few possibilities to look at when analyzing these PCAs.
 
-First, there do seem to be clear clusters. They just don't correspond to our variables. As a result, it's possible that some batch effect is present. To check this, we'll look at the days the libraries were prepped and see if that corresponds to anything.
+First, there do seem to be clear clusters. They just don't correspond to our variables. As a result, it's possible that some batch effect is present. To check this, we'll look at the days the libraries were prepped and see if that corresponds to anything. (UPDATE 2021-08-04: All libraries were sent in on the same day)
 
 It's also possible that another variable (such as carapace width) could have an influence here. It would be worth re-running the PCAs, just to eliminate that possibility.
 
@@ -102,11 +102,3 @@ Alright, that's a whole lot of work, so I'd better get started on it! See you ne
 
 
 
-
-
-
-1. Align crabs D and F to hemat_transcriptomev1.6 and cbai_transcriptomev2.0. This should just check whether our alignment works well - since these are uninfected crab, we shouldn't get any alignments to hemat_v1.6, and the alignment to cbai_v2.0 (which is unfiltered) should give an idea of the accuracy of our filtering for cbai_v4.0 (which is filtered to exclude all non-bairdi sequences).
-
-2. Write a blog post on the bittercrab website!
-
-3. For WGCNA, try reducing minimum module size, particularly for hemat_transcriptomev1.6
