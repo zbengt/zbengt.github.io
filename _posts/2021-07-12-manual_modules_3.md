@@ -6,6 +6,8 @@ categories: hematodinium
 tags: manual clustering
 ---
 
+UPDATE: Changed the bar for gene expression by 2021-08-09. Protocol was the same otherwise For more info, refer to the lab notebook post for Aug. 9th, 2021
+
 This hasn't exactly been the most productive few weeks I've had, but for some extremely happy reasons! Matthew and I took a trip up to Alaska and got engaged!! As a result, I haven't exactly been too focused on crabs for the past week or two, but you know what - I think it's worth it.
 
 Alright, now we're back in Seattle, so now it's back to business. A quick and broad recap:
