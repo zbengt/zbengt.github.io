@@ -51,8 +51,6 @@ Just as before, all samples came from infected crab. The only individual infecte
 - Day 0+2 Elevated vs Ambient (127/173/72/272/280/294 vs 118/132/178/334/349/359)
 - Day 0+2 Ambient vs Low (118/132/178/334/349/359 vs 151/254)
 
-Well, there's good news and bad news. The good news is that I don't actually need to run the TRINITY pipeline to create a reference transcriptome - we already have some reference transcriptomes assembled! The bad news is...dang, that's a lot of work down the drain. As a result, I've shifted towards the downstream analyses found in the sidebar of [the Trinity manual](https://github.com/trinityrnaseq/trinityrnaseq/wiki). 
-
 General overview of next steps:
 - Quantify transcript abundance for Day 0/Day 17 Ambient with Kallisto
 - Merge abundances with Trinity script linked above
