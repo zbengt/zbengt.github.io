@@ -1,0 +1,59 @@
+---
+layout: post
+title: Immune Genes
+date: '2021-08-18'
+categories: hematodinium
+tags: immune genes, DESeq2, PCA
+---
+
+A week or so ago, we decided to investigate a possible alternative path. Until now, we have generally been examining all genes. However, we decided that it may be interesting to look specifically at a subset in detail. Precisely, we decided to examine expression of immune genes among all individual libraries to see if we could spot any patterns. 
+
+To do this, we took a file of accession IDs and their corresponding GO terms, and filtered it to only include the accession IDs with a GO term with "immune" in the term name. The list of GO terms linked is as follows. Since multiple transcripts can correspond to a single gene, the gene list is, of course, shorter. And since there is some overlap in the GO terms assigned to genes (for instance, a gene may have the GO terms for both "immune response" and "humoral immune response"), the totals do not necessarily equal the sum of the rows.
+
+Of course, cbai_v2.0 is cbai_transcriptomev2.0, cbai_v4.0 is cbai_transcriptomev4.0, and hemat_v1.6 is hemat_transcriptomev1.6.
+
+|        | GO term        | Term name                                                  | cbai_v2.0 transcripts | cbai_v2.0 genes | cbai_v4.0 transcripts | cbai_v4.0 genes | hemat_v1.6 transcripts | hemat_v1.6 genes |
+|--------|----------------|------------------------------------------------------------|-----------------------|-----------------|-----------------------|-----------------|------------------------|------------------|
+|        | GO:0006955     | Immune Response                                            | 733                   | 292             | 81                    | 48              | 5                      | 4                |
+|        | GO:0006959     | Humoral Immune Response                                    | 76                    | 42              | 71                    | 12              | 0                      | 0                |
+|        | GO:1905036     | Positive regulation of antifungal innate immune response   | 10                    | 1               | 0                     | 0               | 0                      | 0                |
+|        | GO:1905035     | Negative regulation of antifungal innate immune response   | 7                     | 3               | 0                     | 0               | 0                      | 0                |
+|        | **GO:1905675** | **Negative regulation of adaptive immune memory response** | 3                     | 2               | 0                     | 0               | 0                      | 0                |
+|        | GO:1905674     | Regulation of adaptive immune memory response              | 0                     | 0               | 0                     | 0               | 0                      | 0                |
+|        | GO:1905679     | Positive regulation of adaptive immune effector response   | 0                     | 0               | 0                     | 0               | 0                      | 0                |
+|        | GO:1905678     | Negative regulation of adaptive immune effector response   | 0                     | 0               | 0                     | 0               | 0                      | 0                |
+|        | GO:1905677     | Regulation of adaptive immune effector response            | 0                     | 0               | 0                     | 0               | 0                      | 0                |
+|        | **GO:1905676** | **Positive regulation of adaptive immune memory response** | 3                     | 2               | 0                     | 0               | 0                      | 0                |
+| Totals |                |                                                            | 823                   | 337             | 93                    | 56              | 5                      | 4                |
+
+The bold GO terms are highlighted because according to my (admittedly not intensely deep) look into the literature, crustaceans don't have an adaptive immune response. This could be the result of general genes being labeled with an overly-specific label, but the four cbai_transcriptomev2.0 genes that are labeled as possessing an adaptive immune response certainly should be examined in more detail!
+
+Those genes are as follows: 
+
+**Negative regulation of adaptive immune memory response**
+- [Q92956](https://www.uniprot.org/uniprot/Q92956) (TNR14_HUMAN): Tumor necrosis factor receptor superfamily member 14. Receptor for four ligands. Signals via TRAF2-TRAF3 E3 ligase pathway to promote immune cell survival and differentiation. Interacts with CD160 on NK cells to enhance IFNG production and anti-tumor immune response. For bacterial infections, is epithelial cell signaling receptor, triggering production of antimicrobial proteins and proinflammatory cytokines. Binds to CD160 on activated CD4+ T cells, downregulates CD28 costimulatory signaling, restricting memory and alloantigen-specific immune response.
+
+- [O95971](https://www.uniprot.org/uniprot/O95971) (BY55_HUMAN): CD160 antigen. **WHOA, WE HAVE TWO GENES THAT DEFINITIVELY INTERACT WITH EACH OTHER!!**. Receptor on immune cells capable to deliver stimulatory or inhibitory signals that regulate cell activation and differentiation. Exists as a GPI-anchored and transmembrane form, each likely initiating distinct signaling pathways via phosphoinositol 3-kinase in activated NK cells and via LCK and CD247/CD3 zeta chain in activated T cells. In context of acute viral infection, recognizes HLA-C and triggers NK cell cytotoxic activity, **likely playing a role in anti-viral innate immune response**. On CD8+ T cells, binds HLA-A2-B2M in complex with a viral peptide and provides a costimulatory signal to activated/memory T cells. Upon persistent antigen stimulation, such as occurs during chronic viral infection, may progressively inhibit TCR signaling in memory CD8+ T cells, contributing to T cell exhaustion. In context of bacterial infection, acts as a ligand for TNFRSF14 on epithelial cells, triggering production of antimicrobial proteins and proinflammatory cytokines by similarity.
+
+Note: Did some quick googling, and looks like that INFG production that is enhanced by the interaction of TNR14 and CD160 is Interferon Gamma, a protein-coding gene that is secreted by cells of both the adaptive and innate immune systems
+
+**Positive regulation of adaptive immune memory response**
+- [P60033](https://www.uniprot.org/uniprot/P60033) (CD81_HUMAN): CD81 antigen. Structural component of specialized membrane microdomains known as tetraspanin-enriched microdomains (TERMs), which act as platforms for receptor clustering and signaling. Essential for trafficking and compartmentalization of CD19 receptor on the surface of activated B cells. Upon initial encounter with microbial pathogens, enables the assembly of CD19-CR2/CD21 and B cell receptor (BCR) complexes at signaling TERMs, lowering the threshold dose of antigen required to trigger B cell clonal expansion and antibody production. In T cells, facilitates the localization of CD247/CD3 zeta at antigen-induced synapses with B cells, providing for costimulation and polarization toward T helper type 2 phenotype. Present in MHC class II compartments, may also play a role in antigen presentation. In macrophages, associates with CD9 and beta-1 and beta-2 integrins, and prevents macrophage fusion into multinucleated giant cells specialized in ingesting complement-opsonized large particles. May regulate the compartmentalization of enzymatic activities. In T cells, defines the subcellular localization of dNTPase SAMHD1 and permits its degradation by the proteasome, thereby controlling intracellular dNTP levels. Also involved in cell adhesion and motility. Positively regulates integrin-mediated adhesion of macrophages, particularly relevant for the inflammatory response in the lung. Acts as a receptor for hepatitis C virus (HCV) in hepatocytes. Association with CLDN1 and the CLDN1-CD81 receptor complex is essential for HCV entry into host cell.Involved in SAMHD1-dependent restriction of HIV-1 replication. May support early replication of both R5- and X4-tropic HIV-1 viruses in T cells, likely via proteasome-dependent degradation of SAMHD1. Specifically required for Plasmodium falciparum infectivity of hepatocytes, controlling sporozoite entry into hepatocytes via the parasitophorous vacuole and subsequent parasite differentiation to exoerythrocytic forms.
+
+- [P35762](https://www.uniprot.org/uniprot/P35762) (CD81_MOUSE): CD81 antigen. Much the same as above, with some minor (at first glance) differences.
+
+Alright, so we really have 3 genes here. Fortunately, two of them interact with each other quite a bit, which is fascinating! This certainly isn't definitively linked to the adaptive immune system. But this is worthy of further investigation for sure!
+
+Anyway, we took our file of all transcript IDs associated with immune-related GO terms, and took the raw counts from our kallisto libraries. This gave us a matrix of all counts for only immune-linked genes. We then ran that matrix through DESeq2 to produce a PCA for both cbai_transcriptomev2.0 and cbai_transcriptomev4.0. We then repeated the process over and over with different variables, producing the same PCA but with different colors for day/crab/hematodinium infection status/hematodinium infection level/temperature treatment. We chose not to produce any PCAs for hemat_transcriptomev1.6, as there were only 5 immune-related transcripts for this transcriptome.
+
+Unfortunately, neither of our C. bairdi transcriptomes produced PCAs that showed any more of a tendency to cluster with any of our five variables examined. Those PCAs can be found [here](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/graphs/DESeq2_output/cbai_transcriptomev2.0/immune_genes_all_libs) for cbai_transcriptomev2.0 and [here](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/graphs/DESeq2_output/cbai_transcriptomev4.0/immune_genes_all_libs) for cbai_transcriptomev4.0. They are up to date as of 2021-08-18, but may change shortly, as explained below.
+
+So what are the next steps?
+
+First, for the sake of reproducibility, this whole process may be re-ran, but using only one GO term linked to immunity (Immune Response, or GO:0006955). This makes for a much cleaner methods section, as my previous way of determining GO terms was to just search "immune" on http://amigo.geneontology.org/ and plug in whatever popped up.
+
+Next, we'll take those tables of immune-related genes and put them through a manual clustering process. In fact, we already merged that table with our table of TPM counts (which are used rather than raw counts in manual clustering), so this process should be fairly straightforward. It may be interesting to see which genes get upregulated and which are downregulated over the course of the experiment, and how that meshes with our variables. 
+
+And, of course, we'll look into the genes above - the possibility of finding some indications of adaptive memory response in crustaceans are certainly enticing!
+
+In news that's unrelated to immune genes, I've also got some additional work to do - particularly centered around looking at which crabs are the most and least plastic, along with *drumroll* all the survey data I just got from the Alaska Department of Fish and Game! It encompasses survey data going back to 1978, which is absolutely amazing, and I can't wait to take a long dive into it and possibly produce some neat models!
