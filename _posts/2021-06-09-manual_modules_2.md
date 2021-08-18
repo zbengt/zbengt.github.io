@@ -21,6 +21,6 @@ Beyond that, not too much progress was made on the manual clustering (most of my
 - Examine output of my manual clustering
     - Compare modules to see what the main expression patterns were
     - Compare genes between crabs to see if there's overlap
-- Try using the methods from [this paper](https://www.biorxiv.org/content/10.1101/2021.04.14.439692v1) - GitHub repo [here](https://github.com/echille/Mcapitata_OA_Developmental_Gene_Expression_Timeseries) - to try to do some visualization and analyze expression with GO terms
+- Try using the methods from a paper (link broken, here's the DOI: https://doi.org/10.1101/2021.04.14.439692) - GitHub repo [here](https://github.com/echille/Mcapitata_OA_Developmental_Gene_Expression_Timeseries) - to try to do some visualization and analyze expression with GO terms
 - Again, go back through WGCNA output and see if there's anything good to glean from there
 
