@@ -32,6 +32,7 @@ Anyways, this is largely to mark that a) I'm managing the blog now, and b) to ju
 - Rickettsia-like organisms and potential emerging diseases
 - Tanner crabs and molting
 - What is a "true crab"
+- Red Queen hypothesis
 
 I might also expand it a bit to some other fun marine resource things!
 - Long Island Sound lobster fishery collapse
