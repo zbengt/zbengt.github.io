@@ -16,7 +16,7 @@ Here are our results! I'll post the tables for percentages, along with a link to
 
 #### cbai_transcriptomev2.0
 
-[Percentages](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/manual_clustering/cbai_transcriptomev2.0/all_genes/merged_modules_percentages_table.csv), [Raw Counts](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/manual_clustering/cbai_transcriptomev2.0/all_genes/merged_modules_counts_table.csv)
+[Percentages](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/manual_clustering/cbai_transcriptomev2.0/all_genes/merged_modules_percentages_table.csv), [Raw Counts](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/manual_clustering/cbai_transcriptomev2.0/all_genes/merged_modules_raw_counts.txt)
 
 | Crab   | HLH   | HTL   | LHL   | LTH   | HL    | LH    | MIX   |
 |--------|-------|-------|-------|-------|-------|-------|-------|
