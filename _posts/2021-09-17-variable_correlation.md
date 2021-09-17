@@ -99,4 +99,4 @@ These are our problem children - where we SHOULD be finding correlations but are
 
 - **Treatment** and **ANYTHING RELATED TO GENE EXPRESSION**. Again, a big swing and a miss here. No correlations between temperature treatment and anything else here.
 
-Gotta be honest, these aren't exactly the most encouraging results in the world. But we do have some neat-ish stuff in here! I'm going to send this on over to the rest of the lab to see if anyone has some good insights into this stuff.
+Gotta be honest, these aren't exactly the most encouraging results in the world. But we do have some neat-ish stuff in here! 
