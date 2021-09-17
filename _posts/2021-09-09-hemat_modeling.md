@@ -6,7 +6,7 @@ categories: hematodinium
 tags: linear modeling
 ---
 
-Longtime readers \ will remember my post from June on [using linear modeling to model Hematodinium infection](https://afcoyle.github.io/2021-06-09-QERM_514_project/). In case you don't, I'll give you a quick recap
+Longtime readers will remember my post from June on [using linear modeling to model Hematodinium infection](https://afcoyle.github.io/2021-06-09-QERM_514_project/). In case you don't, I'll give you a quick recap
 
 As part of the QERM 514 class I took, I created a linear model from the survey data that Pam Jensen sent over. These data were Southeast AK Tanner crab surveys from 2007 to 2012, and I focused on modeling _Hematodinium_ infection status. My model found the following linkages to _Hematodinium_ infection.
 
