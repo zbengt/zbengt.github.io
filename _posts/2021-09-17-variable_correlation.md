@@ -6,6 +6,8 @@ categories: hematodinium
 tags: Variable Correlation
 ---
 
+NOTE: As of 9/27, this post is outdated. Check the next one!
+
 A pretty basic question that I haven't really answered yet is how different variables are actually correlated with each other! So to figure this out, I decided to make a correlation matrix. Each variable applies to one individual crab. So we're leaving the time dimension out of it, and are just examining covariance between crabs. 
 
 I made [this table](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/data/indiv_crab_summary.csv) a while back. Each row is a value for each individual crab. 
