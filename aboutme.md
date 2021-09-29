@@ -5,11 +5,17 @@ subtitle: Graduate student, University of Washington
 ---
 ### Current Research 
 
-I'm a graduate student in [Steven Robert's lab](http://faculty.washington.edu/sr320/) in the [School of Aquatic and Fishery Sciences](https://fish.uw.edu/) at the University of Washington in Seattle. I study how Alaskan populations of Tanner crab (*Chionoecetes bairdii*) and their parasite *Hematodinium* are impacted by changing temperatures. I use an [open-access online lab notebook](https://afcoyle.github.io/notebook/) and [GitHub](https://github.com/afcoyle) to publicly share my analyses and support reproducibility.
+My current work focuses on Alaskan populations of snow and Tanner crab (*Chionoecetes bairdi* and *C. opilio*), and their parasite *Hematodinium sp.*. *Hematodinium* is a globally-distributed dinoflagellate notorious for damaging crustacean fisheries and aquaculture. In *Chionoecetes*, it manifests as BCS (Bitter Crab Syndrome), which turns the crab flesh chalky and astringent.
+
+I'm investigating the relationship between *Hematodinium* and *Chionoecetes*, along with the response of this system to climate change. To do so, I use both transcriptomics and generalized linear models.
 
 ### Background
 
-Growing up in coastal Alaska, I have always been fascinated by the ocean and the various critters that live in it. That love took me to Bowdoin College, where I researched genetic links to thermal tolerance in the invasive European green crab. After graduation, I continued my crab investigations, working for the Alaska Department of Fish and Game on a variety of projects. Among others, I worked on Tanner crab research projects studying their reproduction and distribution, surveyed the threatened St. Matthew Island blue king crab population, and monitored Kodiak groundfish, shellfish, and salmon fisheries. I then joined the Washington Department of Fish and Wildlife, where I studied herring spawn events and ichthyoplankton distribution.
+Prior to joining the Roberts lab, I worked on snow and Tanner crab research with the Alaska Department of Fish and Game. While there, I assisted with crab fecundity studies, fishery sampling, and surveys of Bering Sea crab populations. I also joined some non-crab-related projects, including sampling deliveries of groundfish and monitoring salmon runs. I have also worked with the Washington Department of Fish and Wildlife on herring spawn events and ichthyoplankton distribution.
+
+While at undergrad, I researched genetic links to thermal tolerance in the invasive European green crab (*Carcinus maenas*). This project examined the East Coast population of this globally-distributed invader, and found a link between mitochondrial haplotype and cold tolerance. 
+
+In my free time, I love long-distance cycling, mixing cocktails, and making candy!
 
 ### Contact
  **Email:** [afcoyle@uw.edu](mailto:afcoyle@uw.edu)
