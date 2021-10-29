@@ -10,13 +10,13 @@ Bad news: in the time since my last notebook post, I caught the novel coronaviru
 
 Good news: I have since recovered from the novel coronavirus, and have been rockin' it all week! This week was spent on examining immune genes in _Chionoecetes_.
 
-So earlier, I created a list of genes with the GO term associated with "immune response" (that's TK GO TERM) for each of our three transcriptomes. Again, that's unfiltered (cbai_v2.0), _Chionoecetes_-only (cbai_v4.0), and _Hematodinium_-only (hemat_v1.6). To better understand what's going on with the immune system of these Tanner crab, I assigned myself two goals:
+So earlier, I created a list of genes with the GO term associated with "immune response" (that's GO:0006955) for each of our three transcriptomes. Again, that's unfiltered (cbai_v2.0), _Chionoecetes_-only (cbai_v4.0), and _Hematodinium_-only (hemat_v1.6). To better understand what's going on with the immune system of these Tanner crab, I assigned myself two goals:
 
 1: Better understand the pathways of the crustacean immune system more broadly
 
-2: Examine the specific genes expressed in the crab (that's the immune genes observed in cbai_v4.0), and search for the importance of those genes in similar species in the lit. A list of those genes is available [here](TK LINK)
+2: Examine the specific genes expressed in the crab (that's the immune genes observed in cbai_v4.0), and search for the importance of those genes in similar species in the lit. A list of those genes is available [here](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/output/immune_genes/cbai_transcriptomev4.0/immune_gene_names.csv)
 
-This first goal was accomplished by reading a few papers - namely, [TK](), [TK](), and [TK]().
+This first goal was accomplished by reading a few papers - notably, [this 2016 analysis of crustacean immunity with some bonus methods tips](https://academic.oup.com/icb/article/56/6/1113/2647075), [this 2011 PhD thesis](https://eprints.soton.ac.uk/351289/), and [this 2009 review of crustacean antiviral immunity](https://www.sciencedirect.com/science/article/pii/S1050464809000369?casa_token=YKc3_5XkJcIAAAAA:2HZEG3Ep6pOYu1VT1_jyAuK_GXlK1xRpb8dZ7pNCGsRV1maCzEZK3WnPiB-DCYLbv_D-kLdU).
 
 The majority of the rest of this entry will describe the results from the second goal! 
 
@@ -39,7 +39,7 @@ Which brings us to cathepsins. They're mostly in the cysteine protease (CP) fami
 Within _C. bairdi_, we saw expression of the gens for **Cathepsins C, J, L, S, U, V, and W**. We'll go through them each in turn.
 
 **Cathepsin C (Cat C):**
-Relevant paper: [TK description](TK LINK). 
+Relevant paper: [Cathepsin C in red swamp crayfish](https://doi.org/10.1016/j.fsi.2020.03.034). 
 The below description outlines the findings:
 
 - Cat C modulates immune and inflammatory response of red swamp crayfish. It's most abundant in the hepatopancreas (HP) and gut, but is broadly distributed in the tissue. When the crayfish is exposed to viruses (WSSVs) bacteria (Vibrio), or LPS, Cat C expression significantly increased. 
@@ -55,9 +55,8 @@ The below description outlines the findings:
 
 **Cathepsin L (Cat L):**
 Relevant papers: 
-    - [TK description](TK LINK)
-    - [TK description](TK LINK)
-    - [TK description](TK LINK)
+    - [Expression in Chinese mitten crabs](http://dx.doi.org/10.1016/j.fsi.2010.08.007)
+    - [Expression in salmon louse](http://dx.doi.org/10.1371/journal.pone.0123954)
 The below description outlines their findings:
 
 - Cat L is evolutionarily conserved, indicating its importance
@@ -66,16 +65,54 @@ The below description outlines their findings:
 
 - In mitten crabs, upregulated upon bacterial exposure
 
-- Expression in TK SPECIES was highest in the hepatopancreas and gill tissue. These are the two tissue types most associated with immune function
-    - Its broad distribution may be the result of hemocyte infiltration. Due to the open circulatory system of TK TAXA, hemocytes can be found within many tissue types.
+- Expression in mitten crabs was highest in the hepatopancreas and gill tissue. These are the two tissue types most associated with immune function
+    - Its broad distribution may be the result of hemocyte infiltration. Due to the open circulatory system of crabs, hemocytes can be found within many tissue types.
 
-- In shrimp, TK HIGHER OR LOWER levels of expression are associated with a viral response
+- In shrimp, higher levels of expression are associated with a viral response [cited in mitten crab paper w/ several examples]
 
 - It may also be involved with parasites overcoming their host's defense. Within the parasitic salmon louse, Cat L was upregulated during the infective steps. Cathepsins are also highly-expressed in worm parasites, such as trypanosomes, schistosomes, and hookworms.
 
 **Cathepsin S (Cat S):**
 - Ironically looks like some of the only work on the role of _Cat_ S in immunity was done on mice
-- [This paper](TK link) found that it controls antigen presentation and the inflammatory response in those mice
+- [This 1998 paper](https://www.jci.org/articles/view/1158) found that it controls antigen presentation and the inflammatory response in those mice
 - Obviously, mice are pretty dang evolutionarily distant from crabs, but there is _some_ immune role here, even if minimal
 
-**Cathepsin U (Cat U):**
+**Cathepsin U and Cathepsin V (Cat U and Cat V):**
+- These are grouped together because the same gene codes for both
+- Cat V is also called Cathepsin L2
+- In humans, involved in cancer regulation. Minimal info for any inverts.
+
+**Cathepsin W (Cat W):**
+- Increases survival of the pine wilt nematode (a parasite) in its host (pine trees)
+- In pine wilt nematode, acts as anti-phytolexin
+    - Phytolexin: antimicrobial broad spectrum inhibitor, produced by plant
+- In humans, expressed in NK and cytotoxic T cells
+
+### MAPKs:
+
+Along with cathepsins, we looked at the 3 _C. bairdi_ MAPK genes. MAPKs (or mitogen-activated protein kinases) are often involved in stress response (the name is something of a misnomer), and regulate cell functions like proliferation, gene expression, mitosis, cell survival, and apoptosis. 
+
+We have three MAPKs: two are MAPK p38s, and the other is a MAP4K.
+
+**p38s:**
+
+This class often responds to stress stimuli. In the crab [Macrophthalamus japonicus](http://dx.doi.org/10.3390/genes11090958
+), p38s play a role in the immune system and apoptosis response. They're upregulated when exposed to pollutants, and activation can be triggered by environmental stress, pollution, or viral infections. Expression is highest in the gills and hepatopancreas (again, those are the two areas that deal with the most immune pressure)
+
+In the shrimp [Litopenaeus vannamei]](http://dx.doi.org/10.1016/j.dci.2013.05.010
+), p38s are expressed in all tissues, with the highest expression in the hepatopancreas and muscle. When the shrimp is exposed to the virus Vibrio, expression rose in some tissues. 
+
+In the [Chinese mitten crab](http://dx.doi.org/10.3389/fmars.2021.658733
+), p38 was upregulated after exposure to Gram-negative bacteria. When p38 was inhibited and the crab was exposed again, other immune-related gene expression decreased. This indicates that p38 likely has an immunoregulatory response. The same paper noted that in oysters (specifically _C. gigas_) p38 regulates inflammatory cytokine expression, and that in sea cucumbers, p38 was upregulated after Vibrio exposure.
+
+**MAP4K:**
+
+No clear link to immune function was found, but it's just a dang interesing pathway. 
+
+Essentially, MAPKs are activated by MAP2Ks (mitogen-activated protein kinase kinase). MAP2Ks are activated by kinases of their own, dubbed MAP3Ks. So our MAP4K activates a protein, which activates another protein, which activates a MAPK.
+
+
+
+### Other Misc Genes:
+
+Aside from our cathepsins and MAPKs, we saw a few immune genes in the _C. bairdi_ transcriptome. I'll describe each in turn. However, it's really dang late here, so I'll finish this particular lab notebook post tomorrow!

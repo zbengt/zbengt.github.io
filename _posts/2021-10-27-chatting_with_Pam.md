@@ -10,7 +10,7 @@ tags: interview, ecology, pathology, protocol
 
 Longtime readers of Aidan's lab notebook are no doubt familiar with Pam Jensen, the recently-retired _Hematodinium_ expert. Formerly with NOAA, she worked with Grace to make the 2017 _C. bairdi_ / _Hematodinium_ transcriptome project (referred to later as the 2017 NPRB study). The vast majority of my research so far has been analyzing data collected in this project. 
 
-Pam retired soon before I joined the lab, and upon her retirement, shipped around 30,000 genetic samples to the Roberts lab. These samples are partially described in [our post from this August](TK TK TK). Most come from Alaskan snow and Tanner crab from either the Eastern Bering Sea (EBS) or Southeast surveys. However, there's a decent smattering of samples from other species and locations. These samples were nearly all collected from 2005-2019
+Pam retired soon before I joined the lab, and upon her retirement, shipped around 30,000 genetic samples to the Roberts lab. These samples are partially described in [our post from this August](https://afcoyle.github.io/2021-08-30-jensen_samples/). Most come from Alaskan snow and Tanner crab from either the Eastern Bering Sea (EBS) or Southeast surveys. However, there's a decent smattering of samples from other species and locations. These samples were nearly all collected from 2005-2019
 
 To get a better idea of the importance and content of the samples, and to gain additional background on the host/parasite system, I hopped on Zoom to chat with Pam. It ended up being an unbelievably informative and helpful look at both question areas. Future readers (and by that I likely mean future Aidan), do NOT miss the rest of this post.
 
@@ -18,7 +18,7 @@ What follows is a summary of my notes from our chat, elaborated on when necessar
 
 Note: When referring to "crabs", assume we're talking about snow/Tanner crabs, unless otherwise specified. If talking Southeast or Southcentral, we mean Tanners, if talking northern Bering Sea we're talking snow, when discussing EBS broadly, we mean both. 
 
-Relevant background contained in brackets [the word "brackets" originates from the Old English TK TK TK]
+Relevant background contained in brackets [the word "bracket" originates from the French "braguette", meaning codpiece armor, which itself is from the Old English "broc", or "pants"]
 
 ## Discussion
 
@@ -30,7 +30,7 @@ Relevant background contained in brackets [the word "brackets" originates from t
 
 - NOAA is deeply interested in getting the aforementioned 2018 and 2019 samples processed and tested for presence/absence, given the recent massive drop in immature snow crab biomass
 
-- Erin Fedewa at NOAA in Kodiak is leading the charge to get that testing done. She's been working with Hamish Small of VIMS, who's working with Maya Groener [TK: spelling likely incorrect] of a marine center in Alaska.
+- Erin Fedewa at NOAA in Kodiak is leading the charge to get that testing done. She's been working with Hamish Small of VIMS, who's working with Maya Groner at PWSSS in Cordova
 
 - Maya and Hamish are also working on black eye disease in _Chionoecetes_. [side note: wonder which enterprising young ADF&G technician spotted some of the lab's crabs developing black eyes and decided to track their development over time? Whoever he was, he must have been extraordinarily handsome and also an excellent writer]. Lab tests showed that often, the black eyes were the result of a Rickettsia-like organism (RLO) [subgroup of bacteria] damaging the eyes. However, not all crabs with black eyes had the RLO. This isn't unexpected - the black eyes are the result of melanization, which happens as a response to any sort of damage. This is generally unrelated to the _Hematodinium_ work, but is a neat lil update to one of my minor life subplots.
 
@@ -43,24 +43,24 @@ Relevant background contained in brackets [the word "brackets" originates from t
 - In samples from Southeast, the ITS1 assay performs well. It's nice and tidy, with no extra bands. However, in the Bering Sea samples, it frequently had extra bands or failed altogether. This led to Pam having to redesign primers.
     - The first thought was that this was a contamination issue. However, after primers were redesigned, the Southeast samples were still better-behaved than the samples from the Bering Sea.
 
-- There were a variety of hypotheses on why the above pattern (issues with the Bering Sea samples only) was observed:
-    - Other diseases: The primers used are fairly general, so it's possible that other organisms within the crab's hemolymph were amplifying
+- There were three hypotheses on why the above pattern (issues with the Bering Sea samples only) was observed. As you will see, none of the three are really airtight
+    - Other diseases: The primers used are fairly general, so it's possible that other organisms within the crab's hemolymph were amplifying. 
     - Hematodinium mismatch: This theory was subscribed to by Pam's former supervisor - there are differences between _Hematodinium_ from the Bering Sea and Southeast. They also reported seeing physical differences between _Hematodinium_ from the two areas [not sure what those differences are]. However, the ITS1 sequences from the Southeast and Bering Sea are virtually identical [note: they are also present in GenBank]
-    - Crab differences: This is the theory Pam agreed with - that genetic differences between crabs from the Southeast and Bering Sea are responsible. [Note: [this paper](TK TK) on gene flow found that TK PANMIXIA]
+    - Crab differences: Genetic differences between crabs from the Southeast and Bering Sea are responsible. [Note: [this 2019 Masters thesis from UAF](https://scholarworks.alaska.edu/handle/11122/10506) on gene flow in Tanner crab failed to reject panmixia for Alaskan Tanners].
 
 - There seem to be two really interesting directions to go with all these archived samples.
     1. Look at changes in genetic makeup of crabs (and perhaps _Hematodinium_) over time and space.
-    2. Look at gene flow and effective population size of _C. bairdi_ and _C. opilio_ within the EBS. Lorenz Hauser did a disease study on the effective population size of [TK Tasmanian species](TK LINK), and found that [TK FINDINGS]. Determining this for Bering Sea _Chionoecetes_ would answer some fascinating questions about necessary population size and genetic diversity
+    2. Look at gene flow and effective population size of _C. bairdi_ and _C. opilio_ within the EBS. Lorenz Hauser did a disease study on the effective population size of [New Zealand red snapper](https://www.pnas.org/content/99/18/11742), and found the effective population size was about 5 orders of magnitude smaller than the population determined from the surveys. Determining this for Bering Sea _Chionoecetes_ would answer some fascinating questions about necessary population size and genetic diversity
 
 - In a previous project involving Chris Siddon and Pam, they found that infected crabs were successfully able to molt. Chris has the physiological results, Pam has the PCR results, but they haven't gotten around to uniting the two and writing it up. Note: **this sounds like it'd be good and fairly straightforward to do**
 
 - The timeline of _Hematodinium_ infection to mortality hasn't really been established. As noted by many, the infection rates is highest for crabs with a new shell condition (i.e. molting within the last 2-12 months), so molting is certainly linked. However, it's unclear whether crabs are being _infected_ at molt (plausible, as freshly-molted crabs have a soft and more penetrable carapace), or whether infections are _developing_ at molt (also plausible - the physiological stress of molting is severe, and could let a latent infection develop into a severe one). At the moment, we aren't even sure what the route of infection is, so a whole lot is up in the air.
 
-- Black Mat [in an [earlier modeling project](TK LINK), was observed to never co-occurr with _Hematodinium_] is really the name for a whole complex of chitino[TK: CHECK WORD] bacteria and fungi. This leaves 4 plausible reasons that Black Mat and _Hematodinium_ were never seen to co-occur in the data subset tested in the aforementioned modeling project:
+- Black Mat [in an [earlier modeling project with limited data](https://github.com/afcoyle/QERM514_project), was never observed to co-occur with _Hematodinium_] is really the name for a whole complex of chitinoclastic bacteria and fungi. This leaves 4 plausible reasons that Black Mat and _Hematodinium_ were never seen to co-occur in the data subset tested in the aforementioned modeling project:
     1. Random chance: Black Mat is a fairly rare condition, and it's possible not enough crabs were sampled within that subset
     2. Survey design: Both diseases affect the appearance of the carapace, meaning that researchers may visually only count one. Somewhat unlikely, as _Hematodinium_ is most visible on the underside of the carapace, while Black Mat (to my knowledge) is most visible from the top
     3. Exclusion: One disease may exclude the other from taking hold via direct competition.
-    4. Comorbidity: This is the one Pam supports, and I think it's pretty fascinating. _Hematodinium_ reduces the clotting ability of the host. Since Black Mat is chitinoclastic [TK: WORD], it creates holes in the shell. Unable to clot, the crab dies. As a result, both diseases are rarely observed together.
+    4. Comorbidity: This is the one Pam supports, and I think it's pretty fascinating. _Hematodinium_ reduces the clotting ability of the host. Since Black Mat is chitinoclastic, it creates holes in the shell. Unable to clot, the crab dies. As a result, both diseases are rarely observed together.
         - No word as to whether the parents of the infected crab, out of deep religious faith and the need for their son's survival to hold the empire together, turn to a mysterious Russian peasant who casts himself as a holy man
 
 - The T Ratings [a heretofore-mysterious column in the Access/Excel databases Pam sent over] describe the degree of _Hematodinium_ infection on the slides. Pam will try to track down the exact codes, but T4 means lots of Hematodinium, very very few blood cells
@@ -74,15 +74,18 @@ Relevant background contained in brackets [the word "brackets" originates from t
 - Blood smears aren't very sensitive, especially because _Hematodinium_ looks similar to crab blood cells, so low-grade _Hematodinium_ infections are often missed by smears.
     - Basically, blood smears < PCR < qPCR
 
-- Good people to talk to [TK SPELLING]:
+- Good people to talk to:
     - Stan Kotwicki: Mostly works with fish, but really good at modeling, especially environmental data
     - Erin Fedewa: As already mentioned, currently leading a lot of the drive to do _Hematodinium_ work at NOAA
     - Mike Litzow: Statistician and modeling guy. Mostly works on fish
     - Hamish Small: Also already mentioned. Works a lot with _Hematodinium_. Jack of all trades - does histology, molecular work, and fieldwork
-    - Cody Suzwalski: Models [TK crab], works with Erin
-    - Buck Stockhausen: Models [TK crab]
+    - Cody Szuwalski: Models _Chionoecetes_ and king crab, works with Erin at NOAA
+    - Buck Stockhausen: Also models _Chionoecetes_ and king crab with NMFS
+    - Lisa Crosson: Former SAFS grad student (Steven was on her committee). Developed a qPCR assay for _Hematodinium_
 
 - Samples from 2014- have a well-established way of matching well numbers and plates to each crab sample. Samples from before 2014 can be matched to plates easily, but I was previously having issues matching to specific crab. Pam is confident that she had some well-established way to do this, and if that's lost to the sands of time, she can get ahold of the data sheets originally used. Basically, all samples are usable!
+
+- Lisa Crosson's qPCR assay hasn't been formally tested on Bering Sea Tanners or with opies, and there is some uncertainty about its accuracy. However, Pam did run one plate with Bering Sea opies, and it worked well!
 
 - **Pam sent over a notebook, likely dark blue, with potentially data sheets and other important info in it**
 
@@ -103,7 +106,7 @@ Relevant background contained in brackets [the word "brackets" originates from t
 
 #### Sub-conversation: Extracting Samples:
 
-One subject we touched on was the process of collecting and extracting samples. This is pretty important, so I'm putting it in a separate subhead. More information on the specific methods used to collect can be found [here](TK LINK TO JENSEN DOC)
+One subject we touched on was the process of collecting and extracting samples. This is pretty important, so I'm putting it in a separate subhead. More information on the specific methods used to collect can be found [here](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/data/jensen_archived_samples/jensen_data/Hemato_protocols/Hemato_DNA_extraction_protocol_062220.doc)
 
 - Plates were pre-filled with EtOH, and hemolymph was injected right through the caps
 
