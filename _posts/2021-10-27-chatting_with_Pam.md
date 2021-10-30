@@ -52,7 +52,7 @@ Relevant background contained in brackets [the word "bracket" originates from th
     1. Look at changes in genetic makeup of crabs (and perhaps _Hematodinium_) over time and space.
     2. Look at gene flow and effective population size of _C. bairdi_ and _C. opilio_ within the EBS. Lorenz Hauser did a disease study on the effective population size of [New Zealand red snapper](https://www.pnas.org/content/99/18/11742), and found the effective population size was about 5 orders of magnitude smaller than the population determined from the surveys. Determining this for Bering Sea _Chionoecetes_ would answer some fascinating questions about necessary population size and genetic diversity
 
-- In a previous project involving Chris Siddon and Pam, they found that infected crabs were successfully able to molt. Chris has the physiological results, Pam has the PCR results, but they haven't gotten around to uniting the two and writing it up. Note: **this sounds like it'd be good and fairly straightforward to do**
+- In a previous project involving Chris Siddon and Pam, they found that infected crabs were successfully able to molt. Chris has the physiological results, Pam has the PCR results, but they haven't gotten around to uniting the two and writing it up. Note: **this sounds like it'd be good and fairly straightforward to do if I, or someone else in the lab, has the time and can coordinate with them**
 
 - The timeline of _Hematodinium_ infection to mortality hasn't really been established. As noted by many, the infection rates is highest for crabs with a new shell condition (i.e. molting within the last 2-12 months), so molting is certainly linked. However, it's unclear whether crabs are being _infected_ at molt (plausible, as freshly-molted crabs have a soft and more penetrable carapace), or whether infections are _developing_ at molt (also plausible - the physiological stress of molting is severe, and could let a latent infection develop into a severe one). At the moment, we aren't even sure what the route of infection is, so a whole lot is up in the air.
 
@@ -63,13 +63,13 @@ Relevant background contained in brackets [the word "bracket" originates from th
     4. Comorbidity: This is the one Pam supports, and I think it's pretty fascinating. _Hematodinium_ reduces the clotting ability of the host. Since Black Mat is chitinoclastic, it creates holes in the shell. Unable to clot, the crab dies. As a result, both diseases are rarely observed together.
         - No word as to whether the parents of the infected crab, out of deep religious faith and the need for their son's survival to hold the empire together, turn to a mysterious Russian peasant who casts himself as a holy man
 
-- The T Ratings [a heretofore-mysterious column in the Access/Excel databases Pam sent over] describe the degree of _Hematodinium_ infection on the slides. Pam will try to track down the exact codes, but T4 means lots of Hematodinium, very very few blood cells
+- The T Ratings [a column in the Access/Excel databases Pam sent over] describe the degree of _Hematodinium_ infection on the slides. Pam will try to track down the exact codes, but T4 means lots of Hematodinium, very very few blood cells
 
 - Blood cells have different stages, and they likely derive from each other (i.e. A -> B -> C). Since _Hematodinium_ reduces blood cell count, late-stage blood cells are basically eliminated
 
 - Southeast crabs, when they're first infected with _Hematodinium_, have streaks down their legs, almost with the appearance of air bubbles under their carapace. This is not seen in the Bering Sea crabs. However, this is not observed in crabs from the Bering Sea. **Note: This is the second major difference between Bering Sea and Southeast _Hematodinium_ - the first was performance in the assay**. However, it's quite possible that this is due to differences in timing. We only look at each Bering Sea site at one specific time of year [note: the EBS survey is performed at the same time, and following the same pattern (S -> N, and E -> W) each year], and it's possible we just aren't capturing that stage.
 
-- Hamish Small thinks that _Hematodinium_ is driven by temperature
+- Some think that _Hematodinium_ is driven almost entirely by temperature
 
 - Blood smears aren't very sensitive, especially because _Hematodinium_ looks similar to crab blood cells, so low-grade _Hematodinium_ infections are often missed by smears.
     - Basically, blood smears < PCR < qPCR
