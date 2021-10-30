@@ -75,9 +75,9 @@ Relevant background contained in brackets [the word "bracket" originates from th
     - Basically, blood smears < PCR < qPCR
 
 - Good people to talk to:
-    - Stan Kotwicki: Mostly works with fish, but really good at modeling, especially environmental data
+    - Stan Kotwicki: Mostly works with fish, but really good at modeling, especially environmental data. Co-author on index site paper too, so he's done a good share of crab stuff.
     - Erin Fedewa: As already mentioned, currently leading a lot of the drive to do _Hematodinium_ work at NOAA
-    - Mike Litzow: Statistician and modeling guy. Mostly works on fish
+    - Mike Litzow: Head of the Kodiak NOAA lab, statistician and modeling guy.
     - Hamish Small: Also already mentioned. Works a lot with _Hematodinium_. Jack of all trades - does histology, molecular work, and fieldwork
     - Cody Szuwalski: Models _Chionoecetes_ and king crab, works with Erin at NOAA
     - Buck Stockhausen: Also models _Chionoecetes_ and king crab with NMFS
