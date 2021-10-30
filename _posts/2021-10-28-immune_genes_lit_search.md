@@ -18,7 +18,7 @@ So earlier, I created a list of genes with the GO term associated with "immune r
 
 This first goal was accomplished by reading a few papers - notably, [this 2016 analysis of crustacean immunity with some bonus methods tips](https://academic.oup.com/icb/article/56/6/1113/2647075), [this 2011 PhD thesis](https://eprints.soton.ac.uk/351289/), and [this 2009 review of crustacean antiviral immunity](https://www.sciencedirect.com/science/article/pii/S1050464809000369?casa_token=YKc3_5XkJcIAAAAA:2HZEG3Ep6pOYu1VT1_jyAuK_GXlK1xRpb8dZ7pNCGsRV1maCzEZK3WnPiB-DCYLbv_D-kLdU).
 
-The majority of the rest of this entry will describe the results from the second goal! 
+The majority of the rest of this entry will describe the results from the second goal! As a bonus, **I describe all 4 of the immune-related _Hematodinium_ genes at the bottom**
 
 My process was as follows:
 - Search through the lit for similar genes using Google, Google Scholar, UW library, etc.
@@ -116,3 +116,67 @@ Essentially, MAPKs are activated by MAP2Ks (mitogen-activated protein kinase kin
 ### Other Misc Genes:
 
 Aside from our cathepsins and MAPKs, we saw a few immune genes in the _C. bairdi_ transcriptome. I'll describe each in turn. However, it's really dang late here, so I'll finish this particular lab notebook post tomorrow!
+
+**Granzyme A (CTL tryptase):**
+
+Cat C is a processing device for activating (among others) Granzyme A. Within the vertebrate innate immune system, Granzyme A is cytotoxic, and is anti-intracellular pathogens
+
+**Relish:**
+
+[This paper on mud crabs](http://dx.doi.org/10.1016/j.fsi.2019.01.028
+) found that Relish is an important transcription factor in the immune deficiency signaling pathway. It's highly expressed in the gonads and digestive organs, and is upregulated on exposure to viruses. Knockdown reduced expression of other immune genes, and upregulated expression of Toll-like receptor in hemocytes. Knockdown also increased mortality of crabs infected with WSSV and Vibrio.
+
+Relish knockdown also influenced expression of phenoloxidase (PO) and superoxide dismutase (SOD), along with total hemocyte count. Overall, the paper concluded that Relish helps regulate the immune system and defense mechanisms by affecting these pathways, along with apoptosis.
+
+The 2016 review paper we read on the crustacean immune system (linked above) described Relish as part of the IMD pathway, which responds to Gram-negative bacteria and viruses, and cooperates with the Toll pathway. Specifically, Relish is the transcription factor that crosses the nuclear membrane to start immune gene expression.
+
+
+**IκKE:**
+
+IκKE (inhibitor of kappa-beta kinase subunit epsilon): Inhibitors of kappa-beta kinase are listed in the same 2016 review paper as being, like Relish, part of the IMD pathway. In humans, IκKE has a big role in regulating inflammatory reponse to viral infections, and is involved in immune defense in oysters.
+
+**NFIL3 (Nuclear Factor Interleukin 3 Related):**
+
+NFIL3, according to [a different mud crab paper than the one we read on Relish,](https://pubmed.ncbi.nlm.nih.gov/31319087/), is a transcriptional activator of the IL-3 promoter. It's most highly-expressed in the hepatopancreas and in hemocytes within mud crab, and was upregulated in response to viruses. Interference with NFIL3 caused Relish (among other genes) to be downregulated. Overall, it looks like it has a really important role in crustacean immunity.
+
+**TF AP-1 (Transcription Activator Protein-1):**
+
+According to [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237694/), TF AP-1 regulates the immune system in the Chinese mitten crab (_P. trituberculatus_). It's most heavily-expressed in the gonads, and least-expressed in the blood, hemocytes, muscle, hepatopancreas, and gills, indicating it may have an important role in osmoregulation. It was also upregulated in response to exposure to Vibrio, indicating a role in immune response. 
+
+### Conclusions:
+
+Okay, we now have a list of all immune genes expressed in _C. bairdi_ that are backed up in the literature. It looks like cathepsins play an important role, and multiple genes from the IMD pathway appear to be relevant (some of our MAPKs, IKK, and Relish are all part of the IMD pathway, and NFIL3 is a regulator of Relish).
+
+## BONUS: _Hematodinium_ Immune Genes
+
+Only 4 total immune genes were expressed in the _Hematodinium_ transcriptome (that's hemat_v1.6). Very interestingly, **all 4 of these are cysteine proteases** (reminder: cathepsins are a subset of CPs).
+
+Now, CPs are really important in protozoan parasites. They help with penetration, hydrolysis, autophagy, evading host defenses, and even changing host immune response. For a good overall picture, go [here](https://doi.org/10.1371/journal.pntd.0006512). The closest species mentioned in the review article is _Cryptosporidium_, which is part of Apicomplexa! That's really close to dinoflagellates, which given the dearth of parasitic dinoflagellates, is really good! In _Cryptosporidium_, it;s proposed that CPs help with invading host cells.
+
+
+
+The aformentioned 4 _Hematodinium_ genes are as follows:
+
+**Procathepsin L:** 
+
+Precursor of Cat L, which is discussed below!
+
+**Cathepsin L (Cat L):**
+
+We discuss this above, as it was also expressed in _C. bairdi_! We mentioned that in some parasites, it's associated with overcoming host defenses. That's pretty broadly true - here's some examples:
+
+- [The helminth _F. hepatica_ secretes Cat L to help penetrate host organs](https://www.jbc.org/article/S0021-9258(20)57063-4/fulltext)
+
+- [In the root knot nematode, Cat L may have a role in pathogenecity or evasion of host defenses](https://www.sciencedirect.com/science/article/pii/S0885576503001462?casa_token=jr0zMI0cr6MAAAAA:n5edq-J35ifoG0kw09UY1Dyk-LFU1FlvkmOEupVtLQwpLo8FAl75jw7CtsUQ-RTg5MnP-6MA)
+
+I'll also copy-paste what I wrote up above in the bairdi Cat L section: `Within the parasitic salmon louse, Cat L was upregulated during the infective steps. Cathepsins are also highly-expressed in worm parasites, such as trypanosomes, schistosomes, and hookworms.`
+
+**Cat C / Cat J:**
+
+Again, this same gene (which produces both) is expressed in _C. bairdi_. Some findings for parasites:
+
+In _Toxoplasma gondii_, [Cat C is essential for growth and differentiation](https://doi.org/10.1074/jbc.M606764200)
+
+**Cysteine Protease 6:**
+
+All CP connections described above at the top of the Bonus section!
