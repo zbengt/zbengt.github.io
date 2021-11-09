@@ -50,7 +50,7 @@ I've already progressed all the way through GO-MWU! Scripts available as follows
 
 [Preparing the other input for GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_5_GO-MWU_prep.Rmd)
 
-[Running GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_6_running_GO-MWU/36_running_GO-MWU.R)
+[Running GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/3_6_running_GO-MWU/3_6_running_GO-MWU.R)
 
 Two key comparisons were made - Elevated Day 0 vs. Elevated Day 2, individual libraries only (remember, Elevated Day 0 samples were taken prior to exposure to elevated-temperature water), and Ambient Day 2 vs. Elevated Day 2, individual libraries only. All 3 groups (Elev. Day 0, Elev. Day 2, Amb. Day 2) have 3 libraries.
 
@@ -78,7 +78,7 @@ A caveat: I'm not completely sure this is real. Our p-value is 5.5x10^-7, which 
 
 ## [GO-MWU Output](https://github.com/afcoyle/hemat_bairdi_transcriptome/tree/main/output/GO-MWU_output/hemat_transcriptomev1.6)
 
-We weren't able to make graphs for elev. day 0 vs. elev. day 2, as there just weren't any enriched pathways. However, we did see two enriched pathways for [Ambient Day 2 vs. Elevated Day 2](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/graphs/GOMWU_output/hemat_transcriptomev1.6/amb2_vs_elev2_indiv.png), specifically in organelle localization and cellular localization. This could certainly be due to different strains in the two different groups of crab, but is definitely worth looking into more.
+We weren't able to make graphs for elev. day 0 vs. elev. day 2, as there just weren't any enriched pathways. However, we did see two enriched pathways for Ambient Day 2 vs. Elevated Day 2 [NOTE: no longer the case as of 2021-11-08] specifically in organelle localization and cellular localization. This could certainly be due to different strains in the two different groups of crab, but is definitely worth looking into more.
 
 
 

@@ -26,7 +26,7 @@ Scripts available as follows:
 
 [Preparing the other input for GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/4_5_GO-MWU_prep.Rmd)
 
-[Running GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/4_6_running_GO-MWU/46_running_GO-MWU.R)
+[Running GO-MWU](https://github.com/afcoyle/hemat_bairdi_transcriptome/blob/main/scripts/4_6_running_GO-MWU/4_6_running_GO-MWU.R)
 
 Again, two comparisons were made - Elevated Day 0 vs. Elevated Day 2, individual libraries only (remember, Elevated Day 0 samples were taken prior to exposure to elevated-temperature water), and Ambient Day 2 vs. Elevated Day 2, individual libraries only. All 3 groups (Elev. Day 0, Elev. Day 2, Amb. Day 2) have 3 libraries.
 
