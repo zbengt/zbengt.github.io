@@ -37,13 +37,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "afcoyle@uw.edu"
+  email: "zbengt@uw.edu.edu"
 #  facebook: deanattali
   github: zbengt
 #  twitter: daattali
 #  patreon: DeanAttali
 #  reddit: yourname
-  linkedin: https://www.linkedin.com/in/zachary-bengtsson/
+  linkedin: "https://www.linkedin.com/in/zachary-bengtsson/"
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
