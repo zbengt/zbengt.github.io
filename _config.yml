@@ -17,8 +17,6 @@ navbar-links:
   About: "aboutme"
   Lab Notebook: "notebook"
   Resources:
-    - DecaPOD: "https://www.listennotes.com/podcasts/decapod-bittercrabscience-grace-crandall-uf8bqMArwV1/"
-    - Roberts Lab handbook: "https://robertslab.github.io/resources/"
 
 # --- Logo --- #
 
