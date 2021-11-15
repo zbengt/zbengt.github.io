@@ -6,17 +6,16 @@
 # --- Required options --- #
 
 # Name of website
-title: Aidan F. Coyle
+title: Zach Bengtsson
 
 # Your name to show in the footer
-author: Aidan Coyle
+author: Zach Bengtsson
 
 # List of links in the navigation bar
 navbar-links:
-  CV: "cv/Coyle_CV_Sept_2021.pdf"
+  CV: ""
   About: "aboutme"
   Lab Notebook: "notebook"
-  Bitter Crab blog: "https://bittercrab.wordpress.com/"
   Resources:
     - DecaPOD: "https://www.listennotes.com/podcasts/decapod-bittercrabscience-grace-crandall-uf8bqMArwV1/"
     - Roberts Lab handbook: "https://robertslab.github.io/resources/"
@@ -25,14 +24,14 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/headshot.png"
+avatar: "https://avatars.githubusercontent.com/u/91245841?v=4"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+#title-img:
 
 
 # --- Footer social media links --- #
@@ -42,15 +41,15 @@ round-avatar: true
 social-network-links:
   email: "afcoyle@uw.edu"
 #  facebook: deanattali
-  github: afcoyle
+  github: zbengt
 #  twitter: daattali
 #  patreon: DeanAttali
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: https://www.linkedin.com/in/zachary-bengtsson/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-  instagram: coyle_aidan
+#  instagram: coyle_aidan
 #  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
@@ -71,8 +70,8 @@ social-network-links:
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   linkedin: true
   vk: false
 
@@ -147,7 +146,7 @@ footer-link-col: "#404040"
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+#disqus: "https-zbengt-github-io"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
