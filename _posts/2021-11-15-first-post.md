@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Post: November Goals
+title: November Goals
 date: '2021-11-16'
 categories: onboarding
 tags: goals
