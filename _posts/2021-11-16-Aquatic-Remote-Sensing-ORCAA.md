@@ -18,6 +18,6 @@ During my time at NASA DEVELOP a GEE tool was developed for remote assessment of
 
 ### ORCAA Demonstration
 
-![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/MooreaTestAreaPolygon.png)
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/MooreaTestAreaPolygon.png?raw=true)
 
 ### _More to come, post in progress_
