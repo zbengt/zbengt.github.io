@@ -10,7 +10,7 @@ tags: remote sensing
 
 Prior to joining the Roberts Lab this Fall, I worked for NASA Earth Applied Sciences’ [DEVELOP]( https://develop.larc.nasa.gov/) and [ARSET]( https://appliedsciences.nasa.gov/what-we-do/capacity-building/arset) programs. During this time, I became familiar a variety of environmental remote sensing techniques and platforms. One of the easiest ways to work with remote sensing data is Google Earth Engine (GEE). GEE is a cloud-based raster computing platforms that uses a JavaScript API to manipulate remote sensing data. A variety of satellite images and data products are hosted through GEE (including Landsat and Sentinel imagery). This negates data storage issues and local machine computing limits. If you would like to learn more about GEE in general, please refer to [this training]( https://appliedsciences.nasa.gov/join-mission/training/english/arset-using-google-earth-engine-land-monitoring-applications) I gave in June.
 
-![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Overall_GEE_Interface.jpg)
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Overall_GEE_Interface.png)
 _The Google Earth Engine interface. Access to GEE is free, so you can sign up for an account at no cost. Free access is guaranteed to scientists, students, and natural resource managers for the foreseeable future._
 
 ### Aquatic environmental parameter assessment and using the Optical Reef and Coastal Area Assessment (ORCAA) Tool
