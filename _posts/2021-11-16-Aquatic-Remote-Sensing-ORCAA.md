@@ -63,9 +63,3 @@ Imagery, data layers, time series graphs, and point data are all exportable in T
 Take a look at the [ORCAA repository](https://github.com/NASA-DEVELOP/ORCAA) for further information or use the link [here](https://code.earthengine.google.com/1005c8e1910d3ad104fe8bb2a927af95) (you'll need a GEE account) to test it out yourself. 
 
 
-
-
-
-
-
-### _More to come, post in progress_
