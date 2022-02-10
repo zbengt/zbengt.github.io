@@ -25,15 +25,19 @@ During my time at NASA DEVELOP a GEE tool was developed for remote assessment of
 
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/NDCI_LayerDisplayedFor2019Aug.png)
 *ORCAA Interface displaying NDCI*
+
 Technical information in this section was originally prepared by the creators of the ORCAA tool: Hayley Pippin, Arbyn Olarte, Roxana Pilot, and Vanessa Valenti
 
 Data inputs from common NASA and ESA sensors were used via the [GEE internal data catalog](https://developers.google.com/earth-engine/datasets):
-![iamge](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/ORCAA_RemoteSensingDataInputs.png)
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/ORCAA_RemoteSensingDataInputs.png)
 
 Parameters include [Turbidity](https://doi.org/10.1117/12.830700), [Normalized Difference Chlorophyll Index (NDCI) and Chlorophyll-a](https://doi.org/10.1016/j.rse.2011.10.016), [Dissolved Organic Matter (CDOM)](https://doi.org/10.1117/1.JRS.11.036007), and [Sea Surface Temperature (SST)](https://modis.gsfc.nasa.gov/data/dataprod/mod28.php). Links are to publications which established the following equations for calculation of these parameters from surface reflectance bands:
+
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/cb37cacfbcae39d6bc6e986540f88ea684e604dd/assets/img/ORCAA_ParameterCalculationEquations.png)
 
 Interface allows you to select dates of interest and upload your own spatial boundaries:
+
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/SetDateParametersGUI.png)
 
 I chose an aggregate of data from Jan - Nov in 2019 in this example over a polygon drawn in GEE (below).
@@ -51,6 +55,7 @@ After you run, layers are made available in the viewer. Including the highest qu
 Chlorophyll-a layer:
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Chlorophyll-a_Layer.png)
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Chl_Legend.png)
+
 Zoom for pixel by pixel view:
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Chlorophyll-a_Zoom.png)
 
