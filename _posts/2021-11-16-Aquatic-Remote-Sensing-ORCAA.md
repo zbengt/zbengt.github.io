@@ -37,12 +37,15 @@ Interface allows you to select dates of interest and upload your own spatial bou
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/SetDateParametersGUI.png)
 
 I chose an aggregate of data from Jan - Nov in 2019 in this example over a polygon drawn in GEE (below).
+
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/MooreaTestAreaPolygon.png)
 
 Check parameters you want to retrieve, calculate, and display. Relevant colorscales will populate:
+
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/SelectLayer_ColorscaleLegendsGUI.png)
 
 After you run, layers are made available in the viewer. Including the highest quality true color satellite image available in your date range:
+
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/TrueColorSatelliteLayer.png)
 
 Chlorophyll-a layer:
@@ -52,6 +55,7 @@ Zoom for pixel by pixel view:
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Chlorophyll-a_Zoom.png)
 
 Time series chart generator allows you to display data over the course of your data range, values are an average of all pixels within your spatial boundary:
+
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/TimeSeriesChartGeneratorGUI.png)
 
 Imagery, data layers, time series graphs, and point data are all exportable in TIFF, JPEG, and CSV format. Updates under way by the NASA DEVELOP program are implementing new cloud filtering data and improved surface reflectance values. This format of data retrieval, manipulation, and display is particularly helpful in deciding which data products may be most useful in research and allow for the quick processing of satellite imagery.
