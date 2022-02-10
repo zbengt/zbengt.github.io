@@ -3,8 +3,10 @@ layout: post
 title: Google Earth Engine and the ORCAA Tool for Aquatic Remote Sensing of Environmental Parameters
 date: '2021-12-10'
 categories: E5 Coral
-tags: remote sensing
+tags: RemoteSensing
 ---
+
+*TLDR Notice: Start at the Products and Interface section if you aren't interest in background*
 
 ### Using the Google Earth Engine platform to load, process, analyze, and visualize remote sensing data
 
@@ -18,6 +20,11 @@ _The Google Earth Engine interface. Access to GEE is free, so you can sign up fo
 For the purposes of coral reef ecology, satellite remote sensing has the potential to expand spatial and temporal coverage of parameters such as chlorophyll, turbidity, SST, and CDOM. Public satellite technology made available by government agencies (namely NASA and ESA) can provide data at a 10m-30m resolution. Temporal resolution varies between sensors, but using data from more than one satellite sensor can provide multiple images per month.
 
 During my time at NASA DEVELOP a GEE tool was developed for remote assessment of various parameters related to reef and coastal water quality using imagery from the NASA Landsat 8 OLI sensor and the ESA Sentinel-2 MSI sensor. The tool implements a graphical user interface (GUI) giving the user the ability to call a time series of imagery over a specified period and spatial extent, providing a ready made platform to alter and specialize for the application of water quality algorithms according to the needs of research goals.
+
+### Interface and Products
+
+Pre-processed products:
+* Chlorophyll-a
 
 
 ### _More to come, post in progress_
