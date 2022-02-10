@@ -6,9 +6,9 @@ categories: E5 Coral
 tags: RemoteSensing
 ---
 
-*TLDR Notice: Start at the Products and Interface section if you aren't interest in background*
-
 ### Using the Google Earth Engine platform to load, process, analyze, and visualize remote sensing data
+
+*TL;DR Notice: Start at the _"Products and Interface"_ section if you aren't interest in background*
 
 Prior to joining the Roberts Lab this Fall, I worked for NASA Earth Applied Sciences’ [DEVELOP]( https://develop.larc.nasa.gov/) and [ARSET]( https://appliedsciences.nasa.gov/what-we-do/capacity-building/arset) programs. During this time, I became familiar a variety of environmental remote sensing techniques and platforms. One of the easiest ways to work with remote sensing data is Google Earth Engine (GEE). GEE is a cloud-based raster computing platforms that uses a JavaScript API to manipulate remote sensing data. A variety of satellite images and data products are hosted through GEE (including Landsat and Sentinel imagery). This negates data storage issues and local machine computing limits. If you would like to learn more about GEE in general, please refer to [this training]( https://appliedsciences.nasa.gov/join-mission/training/english/arset-using-google-earth-engine-land-monitoring-applications) I gave in June.
 
@@ -23,9 +23,12 @@ During my time at NASA DEVELOP a GEE tool was developed for remote assessment of
 
 ### Products and Interface
 
+Information in this section was prepared by the creators of the ORCAA tool: Hayley Pippin, Arbyn Olarte, Roxana Pilot, and Vanessa Valenti
 
+Data inputs from common NASA and ESA sensors were used via the [GEE internal data catalog](https://developers.google.com/earth-engine/datasets):
+![iamge](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/ORCAA_RemoteSensingDataInputs.png)
 
-Pre-processed products include Turbidity, Chlorophyll-a, Normalized Difference Chlorophyll Index (NDCI), Dissolved Organic Matter (CDOM), and Sea Surface Temperature (SST). Links are to publications where the following equations were developed for calculation of these parameters from surface reflectance bands:
+Parameters include [Turbidity](https://doi.org/10.1117/12.830700), [Normalized Difference Chlorophyll Index (NDCI) and Chlorophyll-a](https://doi.org/10.1016/j.rse.2011.10.016), [Dissolved Organic Matter (CDOM)](https://doi.org/10.1117/1.JRS.11.036007), and [Sea Surface Temperature (SST)](https://modis.gsfc.nasa.gov/data/dataprod/mod28.php). Links are to publications which established the following equations for calculation of these parameters from surface reflectance bands:
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/cb37cacfbcae39d6bc6e986540f88ea684e604dd/assets/img/ORCAA_ParameterCalculationEquations.png)
 
 
