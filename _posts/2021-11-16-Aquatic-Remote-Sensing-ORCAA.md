@@ -21,10 +21,13 @@ For the purposes of coral reef ecology, satellite remote sensing has the potenti
 
 During my time at NASA DEVELOP a GEE tool was developed for remote assessment of various parameters related to reef and coastal water quality using imagery from the NASA Landsat 8 OLI sensor and the ESA Sentinel-2 MSI sensor. The tool implements a graphical user interface (GUI) giving the user the ability to call a time series of imagery over a specified period and spatial extent, providing a ready made platform to alter and specialize for the application of water quality algorithms according to the needs of research goals.
 
-### Interface and Products
+### Products and Interface
 
-Pre-processed products:
-* Chlorophyll-a
+
+
+Pre-processed products include Turbidity, Chlorophyll-a, Normalized Difference Chlorophyll Index (NDCI), Dissolved Organic Matter (CDOM), and Sea Surface Temperature (SST). Links are to publications where the following equations were developed for calculation of these parameters from surface reflectance bands:
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/cb37cacfbcae39d6bc6e986540f88ea684e604dd/assets/img/ORCAA_ParameterCalculationEquations.png)
+
 
 
 ### _More to come, post in progress_
