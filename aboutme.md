@@ -9,7 +9,7 @@ As a graduate student and research assistant, my research focuses on using genom
 
 ### Background
 
-*Coming Soon*
+I graduated in 2015 from Boston University where I studied _Porites_ coral epibionts on mangrove prop roots. After graduation, I held various positions in the fields of genomics and environmental remote sensing. My genomics work varied from the application of gene expression experiments in a medical setting to using eDNA to identify the presence of aquatic invasive species in the Great Lakes. For the past 3+ years before starting graduate school in the [Roberts Lab](https://faculty.washington.edu/sr320/), I worked as a part of the NASA Applied Sciences Capacity Building program where I completed various remote sensing projects, emphasizing the practical applications of satellite remote sensing for natural resource management.
 
 ### Contact
  **Email:** [zbengt@uw.edu](mailto:zbengt@uw.edu)
