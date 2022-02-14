@@ -13,7 +13,7 @@ author: Zach Bengtsson
 
 # List of links in the navigation bar
 navbar-links:
-  CV: "/Users/zachbengtsson/Documents/GitHub/zbengt.github.io/cv/ZacharyBengtsson_CV_AsOf_Feb22.pdf"
+  CV: "cv/ZacharyBengtsson_CV_AsOf_Feb22.pdf"
   About: "aboutme"
   Lab Notebook: "notebook"
   Resources:
