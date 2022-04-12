@@ -5,7 +5,7 @@ date: '2022-03-29'
 categories: courses
 tags: to-do
 ---
-### No longer doing this, great lesson in figuring out credit budgeting before applying for things like this
+### [RIP] No longer doing this, great lesson in figuring out credit budgeting before applying for things like this
 
 I got into the upcoming [NSF IRES Australia](https://www.ires-au.com/) program focucing on transdisciplinary coral reef science.
 
