@@ -1,8 +1,9 @@
 ---
-title: "lncRNA in Express Compare Data"
-author: "Zach Bengtsson"
-date: "6/7/2022"
-output: html_document
+layout: post
+title: lncRNA in Express Compare Data
+date: '2022-06-07'
+categories: lncRNA
+tags: workflow
 ---
 
 Identifying long non-coding RNA in RNA-seq data from the Putnam Lab [Express-Compare repo](https://github.com/hputnam/Express_Compare).
