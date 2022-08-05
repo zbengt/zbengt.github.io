@@ -14,9 +14,17 @@ Primers might not have been appropriate for heat stress since the study was dire
 
 Currently looking at [this](https://cob.silverchair-cdn.com/cob/content_public/journal/jeb/213/20/10.1242_jeb.046094/3/3548.pdf?Expires=1662675798&Signature=yRo3Amp2FmeLdu6th0ysrMrBJO3ai3txBJOVHYyQOf41WC-082GbJnwM7gogrwiXX-S9WbqCzYV3NtWoVsghPmwnFQ0Crr4tzIHZKdlWp-4bqv5JxcMsl004fh9A2St3kfLDusO9ilkQV~1UjfCshuQMTwyptW0cLuWVywDa~LbBKfPZruEA~AXr0S9AZuT5-XCsKH-pabvUXERTaXoNcpnFNvtM3ewkOP3jY~uJhmcu1mWN8TlN-eC-Pzj00FPb-K9pzOB~OGSNKTEz1rqZM8pAD8Um5XID2PBhFrm3gjhAPELVvLBvHh6l8qIALNO-hHMLnT5MTDwEMaYfWVrrDg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA) publication comparing differences in expression after acute heat stress between galloprovincialis and trossulus. Seems like some common players are the same between the two, like Hsp70s, Hsp90, Hsp60, DnaJ and chaperonin TCP1.
 
-Hsp70s gene expression
+Hsp70s gene expression:
+
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel_HeatStress_Primers_Hsp70s.png)
 
 Need to look a little closer at some of the figures to get species specific genes that saw up-regulation in trossulus and continue lit review.
+
+### 08-05-2022 Update
+qPCR runs from Dorothy's experiment showed successful amplification for all primers used in class except for ferritin. So I will likely re-rerun samples from class with the primers for MT10, MT20, small HSP24.1, SQSTM1, HSC70, HSP90, and GADD45 gamma.
+
+Primers (will exclude ferritin):
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/FISH541_Mussel_HeatStress_Primers.png)
 
 **to be continued…**
