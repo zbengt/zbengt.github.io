@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Mussel Heat Stress Primer Design
-date: '2022-08-02'
+date: '2022-08-12'
 categories: mussels
 tags: heat stress
 ---
 
+### 08-02-2022
 Designing heat stress specific primers for Mytilus trossulus/edulis…
 
 Previous primers used in class lab were from this paper: [DNA Damage and Transcriptional Changes in the Gills of Mytilus galloprovincialis Exposed to Nanomolar Doses of Combined Metal Salts (Cd, Cu, Hg)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0054602#pone.0054602-Livak1)
@@ -26,5 +27,32 @@ qPCR runs from Dorothy's experiment showed successful amplification for all prim
 Primers (will exclude ferritin):
 
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/FISH541_Mussel_HeatStress_Primers.png)
+
+### 08-12-2022 Update
+Melt curves from Dorothy's experiment (1 hour of heat stress) show good amplification of MT10, MT20, small HSP24.1, SQSTM1, HSC70, HSP90, and GADD45 gamma. Her findings show the most significant response in small HSP24.1.
+
+**HSC70 & small HSP24**
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel_HeatStress_HSC70-sHSP24.png)
+
+**HSP90 & SQSMT1**
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel_HeatStress_HSP90-SQSMT1.png)
+
+**MT10 & MT20**
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel_HeatStress_MT10-MT20.png)
+
+**GADD45 gamma**
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel_HeatStress_GADD45.png)
+
+**Ferritin**
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel_HeatStress_Ferritin.png)
+
+I will be running pPCR on existing cDNA from the class experiment using the small HSP24.1 primer.
+
+
 
 **to be continued…**
