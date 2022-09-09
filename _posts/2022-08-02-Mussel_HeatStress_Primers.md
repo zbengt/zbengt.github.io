@@ -56,6 +56,22 @@ I will be running pPCR on existing cDNA from the class experiment using the smal
 ### 08-18-2022 Update
 We have 64 cDNA samples from experiment 2: replicates, A & B, for each individual (chronic heat of 18C, variable cycling heat 12C-18C, and control 12C). To run them with the HSP24 primer and for all subsequent analyses, I made 1:10 dilutions for each cDNA sample (40ul each, 4ul sample and 36ul DEPC H2O).
 
+### 08-31-2022 Update
+Ran qPCR of pooled A & B cDNA samples for HSP24.
+
+* [View data](https://docs.google.com/spreadsheets/d/1R94cfE804rsnnVULtMr3EdcrVhbc-2Zd813JzGFxB_8/edit?usp=sharing)
+* [Full output folder](https://drive.google.com/drive/folders/1MGApIrCIWjuW92qNg4fLl7E1hM4wGON4?usp=sharing)
+
+Melt Curve:
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel%20qPCR/08-31-2022/melt_curve.png)
+
+
+Amplification:
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel%20qPCR/08-31-2022/amplification.png)
+
+
 
 
 
