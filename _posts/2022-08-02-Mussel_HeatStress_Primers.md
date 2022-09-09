@@ -71,9 +71,23 @@ Amplification:
 
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel%20qPCR/08-31-2022/amplification.png)
 
+Melt curve shows potential primer-dimer and amplification in one of the NTCs. Standard deviations between replicates are suspiciously high. 
 
+### 09-08-2022 Update
+Ran qPCR of pooled A & B cDNA samples for HSP90.
 
+* [View data](https://docs.google.com/spreadsheets/d/16AAFDXpL_6WE68svOdyC5H9ZU2gKQ5so9CqVwPqklgY/edit?usp=sharing)
+* [Full output folder](https://drive.google.com/drive/folders/1PrBuZzbUfCa5KAIEYYW_ox13woH1kHVs?usp=sharing)
 
+Melt Curve:
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel%20qPCR/09-08-2022/melt_curve.png)
+
+Amplification:
+
+![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel%20qPCR/09-08-2022/amplification.png)
+
+Melt curves look good, no amplification in NTCs, and standard deviations between replicates look alright.
 
 
 **to be continued…**
