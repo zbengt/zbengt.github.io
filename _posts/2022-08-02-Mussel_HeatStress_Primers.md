@@ -29,7 +29,7 @@ Primers (will exclude ferritin):
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/FISH541_Mussel_HeatStress_Primers.png)
 
 ### 08-12-2022 Update
-Melt curves from Dorothy's experiment (1 hour of heat stress) show good amplification of MT10, MT20, small HSP24.1, SQSTM1, HSC70, HSP90, and GADD45 gamma. Her findings show the most significant response in small HSP24.1.
+Melt curves from Dorothy's experiment (1 hour of heat stress) show good amplification of MT10, MT20, small HSP24.1, SQSTM1, HSC70, HSP90, and GADD45 gamma. Her findings show the most significant response in small HSP24.1. Dorothy's lab notebook can be found [here](https://genefish.wordpress.com/author/dorolar/).
 
 **HSC70 & small HSP24**
 
@@ -52,6 +52,11 @@ Melt curves from Dorothy's experiment (1 hour of heat stress) show good amplific
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel_HeatStress_Ferritin.png)
 
 I will be running pPCR on existing cDNA from the class experiment using the small HSP24.1 primer.
+
+### 08-18-2022 Update
+We have 64 cDNA samples from experiment 2: replicates, A & B, for each individual (chronic heat of 18C, variable cycling heat 12C-18C, and control 12C). To run them with the HSP24 primer and for all subsequent analyses, I made 1:10 dilutions for each cDNA sample (40ul each, 4ul sample and 36ul DEPC H2O).
+
+
 
 
 
