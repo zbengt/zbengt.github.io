@@ -13,7 +13,7 @@ Previous primers used in class lab were from this paper: [DNA Damage and Transcr
 
 Primers might not have been appropriate for heat stress since the study was directed more toward metal toxicity. The mussel species may have also been too dissimilar from those we used (primers were for galloprovincialis rather than trossulus or edulis).
 
-Currently looking at [this](https://cob.silverchair-cdn.com/cob/content_public/journal/jeb/213/20/10.1242_jeb.046094/3/3548.pdf?Expires=1662675798&Signature=yRo3Amp2FmeLdu6th0ysrMrBJO3ai3txBJOVHYyQOf41WC-082GbJnwM7gogrwiXX-S9WbqCzYV3NtWoVsghPmwnFQ0Crr4tzIHZKdlWp-4bqv5JxcMsl004fh9A2St3kfLDusO9ilkQV~1UjfCshuQMTwyptW0cLuWVywDa~LbBKfPZruEA~AXr0S9AZuT5-XCsKH-pabvUXERTaXoNcpnFNvtM3ewkOP3jY~uJhmcu1mWN8TlN-eC-Pzj00FPb-K9pzOB~OGSNKTEz1rqZM8pAD8Um5XID2PBhFrm3gjhAPELVvLBvHh6l8qIALNO-hHMLnT5MTDwEMaYfWVrrDg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA) publication comparing differences in expression after acute heat stress between galloprovincialis and trossulus. Seems like some common players are the same between the two, like Hsp70s, Hsp90, Hsp60, DnaJ and chaperonin TCP1.
+<!---Currently looking at [this](https://cob.silverchair-cdn.com/cob/content_public/journal/jeb/213/20/10.1242_jeb.046094/3/3548.pdf?Expires=1662675798&Signature=yRo3Amp2FmeLdu6th0ysrMrBJO3ai3txBJOVHYyQOf41WC-082GbJnwM7gogrwiXX-S9WbqCzYV3NtWoVsghPmwnFQ0Crr4tzIHZKdlWp-4bqv5JxcMsl004fh9A2St3kfLDusO9ilkQV~1UjfCshuQMTwyptW0cLuWVywDa~LbBKfPZruEA~AXr0S9AZuT5-XCsKH-pabvUXERTaXoNcpnFNvtM3ewkOP3jY~uJhmcu1mWN8TlN-eC-Pzj00FPb-K9pzOB~OGSNKTEz1rqZM8pAD8Um5XID2PBhFrm3gjhAPELVvLBvHh6l8qIALNO-hHMLnT5MTDwEMaYfWVrrDg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA) publication comparing differences in expression after acute heat stress between galloprovincialis and trossulus. Seems like some common players are the same between the two, like Hsp70s, Hsp90, Hsp60, DnaJ and chaperonin TCP1.-->
 
 Hsp70s gene expression:
 
@@ -55,6 +55,11 @@ I will be running pPCR on existing cDNA from the class experiment using the smal
 
 ### 08-18-2022 Update
 We have 64 cDNA samples from experiment 2: replicates, A & B, for each individual (chronic heat of 18C, variable cycling heat 12C-18C, and control 12C). To run them with the HSP24 primer and for all subsequent analyses, I made 1:10 dilutions for each cDNA sample (40ul each, 4ul sample and 36ul DEPC H2O).
+
+### 08-22-2022
+Ran qPCR of A & B cDNA samples individually for HSP24. A & B are cDNA synthesis replicates (and A & B exist for each sample in Experiment 2).
+
+
 
 ### 08-31-2022 Update
 Ran qPCR of pooled A & B cDNA samples for HSP24.
