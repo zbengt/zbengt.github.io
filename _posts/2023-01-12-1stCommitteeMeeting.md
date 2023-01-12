@@ -17,6 +17,7 @@ Big takeaways...
   * Or specific tissues involved in a biological process that might rely on lncRNAs     for regulation?
 Basically needs to be set up so that a biologically motivated question is being answered with lncRNA data. More specific and direct as opposed to a shot-gun approach of "what did we see after inspecting the data". **A good first step in this would be completing a differential expression analysis for the CEABiGR data to get a feel for what the lncRNA expression landscape looks like.**
 
+
 * **Chapter 1 Considerations**: Need to get ahead of temperature choices since the max and min of the temperature treatments are not the same. **Absolutely should finish the lab work ASAP to move forward with quntification and analysis (HIGH PRIORITY).**
 
 * **Overall Thesis/Dissertation Topic**: Need to define resilience in the context of my project. **Should create a conceptual diagram of how everything fits together.**
@@ -24,7 +25,8 @@ Basically needs to be set up so that a biologically motivated question is being 
     (Ecological resilience conveyed by molecular mechanisms?)
   * How will these chapters fit together? Increasing complexity by adding pieces of     the expression landscape?
   * What is the focus beyond lncRNAs? Is it additional ncRNAs (miRNA, siRNA)?
-
+  
+  
 * **Statistical Analyses**: What sort of stats can I be using to analyze this work. Is it stats focused or mechanism focused? Both?
   * Should consider taking additional courses in stats to support this work. It's      more than likely that.
   
