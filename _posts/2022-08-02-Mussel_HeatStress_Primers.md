@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mussel Heat Stress Primer Design
-date: '2022-08-12'
+title: Mussel Heat Stress
+date: '2023-02-03'
 categories: mussels
 tags: heat stress
 ---
@@ -93,6 +93,24 @@ Amplification:
 ![image](https://raw.githubusercontent.com/zbengt/zbengt.github.io/master/assets/img/Mussel%20qPCR/09-08-2022/amplification.png)
 
 Melt curves look good, no amplification in NTCs, and standard deviations between replicates look alright.
+
+### 02-03-2023
+Ran qPCR of pooled A & B cDNA samples for HSC70.
+
+* [View data](https://docs.google.com/spreadsheets/d/16kjD6BuVVwsxfIY6d8jgsLSxVCi9YhBxADghZGpgMoA/edit?usp=share_link)
+* [Full output folder](https://drive.google.com/drive/folders/1N--jg2wt-D6N4lKfaxxE6AT-8rkHuHIL?usp=share_link)
+
+Melt Curve:
+
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Mussel%20qPCR/02-03-2023/MeltCurve.jpg?raw=true)
+
+Amplification:
+
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Mussel%20qPCR/02-03-2023/Amplification.jpg?raw=true)
+
+Amplification and melt curves look alright. But it looks like a few sample did not amplify past the threshold. Unsure if this is a lab error or true lack of expression.
+
+
 
 
 **to be continued…**
