@@ -274,7 +274,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-toc
-	
 # TOC Settings
 toc:
  min_level: 1
