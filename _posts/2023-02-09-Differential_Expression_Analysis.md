@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DESeq2 Differential Expression Analysis Pipeline
-date: '2023-02-16'
+date: '2023-02-22'
 categories: genomics expression
 tags: analysis
 ---
