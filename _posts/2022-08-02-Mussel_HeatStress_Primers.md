@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mussel Heat Stress
-date: '2023-02-03'
+date: '2023-03-22'
 categories: mussels
 tags: heat stress
 ---
@@ -127,7 +127,8 @@ Amplification:
 
 Amplification and melt curves look alright, but their may be some unintended amplification. Definitely appears to be a loading error for controls 96-99. I have another Actin primer in mind if necessary.
 
+### Update 03-22-2023
 
-
+Compiled Cq and Cq Mean [here](https://docs.google.com/spreadsheets/d/1Hq1YowSDmli_1vbgQNleM1T_HTyJIXf1RbDVL8W7UZc/edit?usp=share_link)
 
 **to be continued…**
