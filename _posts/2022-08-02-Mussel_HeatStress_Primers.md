@@ -129,6 +129,6 @@ Amplification and melt curves look alright, but their may be some unintended amp
 
 ### Update 03-22-2023
 
-Compiled Cq and Cq Mean [here](https://docs.google.com/spreadsheets/d/1Hq1YowSDmli_1vbgQNleM1T_HTyJIXf1RbDVL8W7UZc/edit?usp=share_link)
+Compiled Cq and Cq Mean [here](https://docs.google.com/spreadsheets/d/1tKIkgp2GnY7M6X_zb4Mxy-YmdrHJG5dfCFGblpRYgpM/edit?usp=share_link)
 
 **to be continued…**
