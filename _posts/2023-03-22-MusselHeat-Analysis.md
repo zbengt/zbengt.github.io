@@ -6,11 +6,11 @@ categories: conferences
 tags: communication
 ---
 
-Boxplot without outlier removal:
+Boxplot with outliers:
 
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Mussel%20qPCR/boxplot_withOutliers.png?raw=true)
 
-Boxplot with outlier removal:
+Boxplot without outliers:
 
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Mussel%20qPCR/boxplot_removeOutliers.png?raw=true)
 
