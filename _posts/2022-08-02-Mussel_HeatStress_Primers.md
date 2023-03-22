@@ -110,6 +110,15 @@ Amplification:
 
 Amplification and melt curves look alright. But it looks like a few sample did not amplify past the threshold. Unsure if this is a lab error or true lack of expression.
 
+Update 03-20-2023
+
+Ran qPCR of pooled for Actin (the chosen normalizing gene).
+
+* [View data](https://docs.google.com/spreadsheets/d/1kMBbDuAfGUOkOjyv_i_WUmY3kOXENTFqXq_TYpavZK0/edit?usp=sharing)
+* [Full output folder](https://drive.google.com/drive/folders/1RdWA9PSV5hGJRTRkDgDzVMiwkhDleoU1?usp=share_link)
+
+Amplification and melt curves look alright, but their may be some unintended amplification. Definitely appears to be a loading error for controls 96-99. I have another Actin primer in mind if necessary.
+
 
 
 
