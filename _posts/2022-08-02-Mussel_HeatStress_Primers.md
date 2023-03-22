@@ -117,6 +117,14 @@ Ran qPCR of pooled for Actin (the chosen normalizing gene).
 * [View data](https://docs.google.com/spreadsheets/d/1kMBbDuAfGUOkOjyv_i_WUmY3kOXENTFqXq_TYpavZK0/edit?usp=sharing)
 * [Full output folder](https://drive.google.com/drive/folders/1RdWA9PSV5hGJRTRkDgDzVMiwkhDleoU1?usp=share_link)
 
+Melt Curve:
+
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Mussel%20qPCR/03-20-2023/norm-melt.png?raw=true)
+
+Amplification:
+
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Mussel%20qPCR/03-20-2023/norm-amp.jpg?raw=true)
+
 Amplification and melt curves look alright, but their may be some unintended amplification. Definitely appears to be a loading error for controls 96-99. I have another Actin primer in mind if necessary.
 
 
