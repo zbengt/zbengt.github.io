@@ -110,7 +110,7 @@ Amplification:
 
 Amplification and melt curves look alright. But it looks like a few sample did not amplify past the threshold. Unsure if this is a lab error or true lack of expression.
 
-Update 03-20-2023
+### Update 03-20-2023
 
 Ran qPCR of pooled for Actin (the chosen normalizing gene).
 
