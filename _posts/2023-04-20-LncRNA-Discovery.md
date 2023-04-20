@@ -14,7 +14,7 @@ This workflow completes lncRNA discovery for a single sample (C17) of data from 
 
 Build an index for a reference genome using the HISAT2 software. The command takes the path to the HISAT2 executable, -f option specifies that the input is a fasta file, and the path to the fasta file to be indexed...
 
-```{bash hisat}
+```
 /home/shared/hisat2-2.2.1/hisat2-build \
 -f ../data/Pver_genome_assembly_v1.0.fasta \
 ../output/Pver_genome_assembly_v1.0-valid.index
