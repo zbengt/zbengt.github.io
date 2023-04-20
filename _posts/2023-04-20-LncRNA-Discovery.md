@@ -84,3 +84,5 @@ Use awk to extract the transcript IDs from the cpc2results-last.txt file that ha
 awk '$NF < 0 {print $1}' ../output/cpc2results-last.txt > ../output/noncoding_transcripts_ids.txt
 grep -Fwf ../output/noncoding_transcripts_ids.txt ../output/novel_lncRNA_candidates-valid.fasta > ../output/final_lncRNAs.gtf
 ```
+
+The restult is a GTF file listing the IDs of lncRNAs present in you RNA-seq data.
