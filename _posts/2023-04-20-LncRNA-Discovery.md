@@ -60,10 +60,10 @@ Compare and merge multiple GTF files, and generate a summary report. The command
 ../output/Pver-valid.gtf \
 ```
 
-* "_` awk '$3 == "transcript" && $1 !~ /^#/ {print}' ../output/C17.annotated.gtf_": selects only lines that correspond to transcript features and do not start with a "#" (i.e., comments) in the input GTF file../output/GFF_C17.annotated.gtf.
-* "_grep 'class_code "u"'_": searches for lines that contain the string class_code "u" in the output of the previous awk command. The u class code indicates transcripts that are not overlapping any reference transcript on the same strand.
-* "_awk '$5 - $4 > 199 {print}'_": selects only lines where the difference between the fifth column (end position) and the fourth column (start position) is greater than 199 nucleotides. This filters out transcripts that are shorter than 200 nucleotides.
-* "_> ../output/novel_lncRNA_candidates.gtf_": redirects the filtered output to a new GTF file ../output/novel_lncRNA_candidates-valid.gtf.
+` awk '$3 == "transcript" && $1 !~ /^#/ {print}' ../output/C17.annotated.gtf: selects only lines that correspond to transcript features and do not start with a "#" (i.e., comments) in the input GTF file../output/GFF_C17.annotated.gtf.
+grep 'class_code "u"': searches for lines that contain the string class_code "u" in the output of the previous awk command. The u class code indicates transcripts that are not overlapping any reference transcript on the same strand.
+awk '$5 - $4 > 199 {print}': selects only lines where the difference between the fifth column (end position) and the fourth column (start position) is greater than 199 nucleotides. This filters out transcripts that are shorter than 200 nucleotides.
+And > ../output/novel_lncRNA_candidates.gtf: redirects the filtered output to a new GTF file ../output/novel_lncRNA_candidates-valid.gtf.
 
 ```
 awk '$3 == "transcript" && $1 !~ /^#/ {print}' ../output/C17.annotated.gtf | grep 'class_code "u"' | awk '$5 - $4 > 199 {print}' > ../output/novel_lncRNA_candidates-valid.gtf
