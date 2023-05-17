@@ -10,7 +10,7 @@ tags: planning milestones
 
 Link to google slide with clickable links is [here](https://docs.google.com/presentation/d/13l0PUz1jBcVLlyU60E0dOBRStLZHYj029m1eTm7jE_s/edit?usp=sharing).
 
-![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Spring%2023%20to%20Spring%2024%20Timeline.png?raw=true)
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Spring%2023%20to%20Spring%2024%20Timeline%20(1).png?raw=true)
 
 ### Main Points
 * Bypass application submission planned for the Autumn 23 quarter deadline (November 15th)
