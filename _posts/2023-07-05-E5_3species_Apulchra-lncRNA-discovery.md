@@ -1,7 +1,7 @@
 ---
 layout: post
 title: E5 3 Species 01 - A pulchra lncRNA Discovery
-date: '2023-07-07'
+date: '2023-07-03'
 categories: bioinformatics 3species
 tags: E5 3species
 ---
