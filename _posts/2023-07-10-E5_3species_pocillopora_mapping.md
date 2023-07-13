@@ -6,7 +6,7 @@ categories: bioinformatics 3species
 tags: E5 3species
 ---
 
-I ran HISAT2 to get alignments for the E5 Pocillopora data using the _P. meandrina_ reference we had decided on [here](https://github.com/urol-e5/deep-dive/wiki/Species-Characteristics-and-Genomic-Resources) in the wiki. Overall alignment rates look kind of low. Am I using the right reference?
+I ran HISAT2 to get alignments for the E5 Pocillopora data using the _P. meandrina_ reference we had decided on [here](https://github.com/urol-e5/deep-dive/wiki/Species-Characteristics-and-Genomic-Resources) in the wiki. Overall alignment rates look kind of low. Are we sure about using this?
 
 ## Alignment Summary
 
