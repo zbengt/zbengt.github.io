@@ -1,7 +1,7 @@
 ---
 layout: post
 title: E5 3 Species 04 - Pocillopora Mapping Comparison
-date: '2023-07-14'
+date: '2023-07-13'
 categories: bioinformatics 3species
 tags: E5 3species
 ---
