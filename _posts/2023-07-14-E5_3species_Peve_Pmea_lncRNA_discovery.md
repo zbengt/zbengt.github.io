@@ -1,6 +1,6 @@
 ---
 layout: post
-title: E5 3 Species 04 - Pocillopora Mapping Comparison
+title: E5 3 Species 05 - P. meandrina and P. evermanni lncRNA Discovery
 date: '2023-07-14'
 categories: bioinformatics 3species
 tags: E5 3species
