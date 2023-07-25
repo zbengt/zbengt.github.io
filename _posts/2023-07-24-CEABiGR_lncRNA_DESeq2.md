@@ -17,7 +17,7 @@ Ran DESeq2 for females only, males only, and combined not accounting for sex. Vo
 
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/Female-OA-volcanoplot.png?raw=true)
 
-![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/Female-OA-PCA.png?raw=true)
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/Female-OA-PCA-LABELLED.png?raw=true)
 
 No obvious clustering as a whole.
 
@@ -30,7 +30,7 @@ Control grouped with control and exposed grouped with exposed for the top 30.
 
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/Males-OA-volcano-plot.png?raw=true)
 
-![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/Males-OA-PCA.png?raw=true)
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/Males-OA-PCA-LABELLED.png?raw=true)
 
 Clustering of most males.
 
@@ -39,11 +39,11 @@ Clustering of most males.
 Control grouped with control and exposed grouped with exposed for the top 30.
 
 
-### Combined (Males and Females) - OA vs Control
+### Combined (Males and Females ignoring sex) - OA vs Control
 
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/Combined-OA-volcanoplot.png?raw=true)
 
-![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/Combined-OA-PCA.png?raw=true)
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/Combined-OA-PCA-LABELLED.png?raw=true)
 
 Clustering consistent for males.
 
