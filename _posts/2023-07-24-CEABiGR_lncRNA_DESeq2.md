@@ -1,7 +1,7 @@
 ---
 layout: post
-title: CEABiGR lncRNA 01 - DESeq2 Runs
-date: '2023-07-24'
+title: CEABiGR lncRNA - DESeq2 Runs
+date: '2023-08-30'
 categories: bioinformatics CEABiGR
 tags: CEABiGR
 ---
