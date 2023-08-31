@@ -22,9 +22,9 @@ Summary stats of blast run:
 - All 4750 lncRNA transcripts obtained 1 or greater hits
 - [Results table](https://github.com/zbengt/oyster-lnc/blob/main/output/database_blasts/RNAcentral/rnacentral.tab) (hits are represented by RNAcentral IDs)
 
-![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/RNAcentral-blast-percentage-identity.png)
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/RNAcentral-blast-percentage-identity.png?raw=true)
 
-![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/RNAcentral-blastn-e-value-distribution.png)
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/RNAcentral-blastn-e-value-distribution.png?raw=true)
 
 
 
