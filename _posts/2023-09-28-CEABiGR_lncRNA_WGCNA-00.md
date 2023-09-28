@@ -28,4 +28,4 @@ Attempt at merging, showing males only in this case. Module similarity did not m
 
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/WGCNA-00-male-merge.png?raw=true)
 
-Paused this to attempt Ariana's methodology which has a 
+Paused this to attempt Ariana's methodology which has more stringent filtering steps.
