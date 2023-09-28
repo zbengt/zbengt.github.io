@@ -6,7 +6,7 @@ categories: bioinformatics CEABiGR
 tags: CEABiGR WGCNA
 ---
 
-Running individual WGCNA analyses on male and female sets of oysters. Initial code can be found (here)[https://github.com/zbengt/oyster-lnc/blob/main/code/05-WGCNA-edgeR.Rmd].
+Running individual WGCNA analyses on male and female sets of oysters. Initial code can be found [here](https://github.com/zbengt/oyster-lnc/blob/main/code/05-WGCNA-edgeR.Rmd).
 General notes about first run:
 * Using signed networks (those that take into account the direction of expression as well as the value of the count - up or down)
 * Blockwise clustering for module formation, usually good for large datasets, probably not necessary since there isn't too much data
