@@ -17,7 +17,7 @@ After completing these additional filtration steps, 4190 of the 4750 lncRNAs of 
 
 Here is the issue...
 
-![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/WGCNA-01-tom-dissimilarity.png?raw=true)
+![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/WGCNA-01-tom-dissim.png?raw=true)
 
 Clustering at this stage should represent all genes, this clearly isn't that. So figuring out where the error is. Seems like it might be a data loading issue.
 
