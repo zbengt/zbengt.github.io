@@ -21,3 +21,12 @@ Here is the issue...
 
 Clustering at this stage should represent all genes, this clearly isn't that. So figuring out where the error is. Seems like it might be a data loading issue.
 
+UPDATE: I made some stupid mistakes, no surprise there.
+Next steps discussed with Ariana:
+* Go back and normalize data with DESeq2 steps
+* Change the filtering (5 counts, 1 sample out of all of them)
+* Re-select the soft-threshold after normalization
+* Make expression histograms and do some of the outlier identification we talked about (dendrogram - module, histograms - specific lncRNAs)
+
+
+
