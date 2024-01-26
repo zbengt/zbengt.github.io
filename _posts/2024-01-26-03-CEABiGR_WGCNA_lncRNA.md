@@ -48,6 +48,7 @@ Step by step workflow...
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/03%20-%20WGCNA%20-%20CEABiGR%20lncRNA/Female-Cluster-dendrogram-with-merged.png?raw=true)
 * Save merged modules
   * *238 modules total*
+
 | Color              | Count |
 |--------------------|-------|
 | aliceblue          |     7 |
