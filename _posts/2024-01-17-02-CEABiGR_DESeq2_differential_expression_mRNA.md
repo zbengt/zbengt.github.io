@@ -39,7 +39,7 @@ This wasn't the most interesting story. There are many DEGs, but appears to be m
 ### Volcano Plot
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/02-DE-female-volcano.png?raw=true)
 
-* 25 significantly differentially expressed lncRNA
+* 25 significantly differentially expressed mRNAs
 
 ### PCA - treatment
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/02-DE-female-PCA.png?raw=true)
@@ -57,7 +57,7 @@ This wasn't the most interesting story. There are many DEGs, but appears to be m
 ### Volcano Plot
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/02-DE-male-volcano.png?raw=true)
 
-* 107 significantly differentially expressed lncRNAs
+* 107 significantly differentially expressed mRNAs
 
 ### PCA - treatment
 ![image](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/oyster-lnc/02-DE-male-PCA.png?raw=true)
