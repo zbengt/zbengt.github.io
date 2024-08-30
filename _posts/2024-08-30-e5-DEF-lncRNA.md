@@ -34,7 +34,7 @@ P. evermanni
 
 P. tuahiniensis
 
-```{bash}
+``` bash
 /home/shared/ncbi-blast-2.11.0+/bin/makeblastdb \
 -in ~/github/deep-dive/DEF-cross-species/data/08-comparative-BLASTs/Pmea_lncRNA.fasta \
 -dbtype nucl \
@@ -45,7 +45,7 @@ P. tuahiniensis
 
 Apul to all
 
-```{bash}
+``` bash
 /home/shared/ncbi-blast-2.11.0+/bin/blastn \
 -task blastn \
 -query ~/github/deep-dive/DEF-cross-species/data/08-comparative-BLASTs/merged_lncRNAs.fasta \
