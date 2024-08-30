@@ -41,7 +41,7 @@ P. tuahiniensis
 -out ~/github/deep-dive/DEF-cross-species/output/08-comparative-BLASTs/blasts/Pmea-db/Pmea_lncRNA
 ```
 
-### BLAST each species database against full merged FASTA
+### BLAST merged FASTA against each species database
 
 Apul to all
 
