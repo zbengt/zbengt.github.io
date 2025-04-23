@@ -1,7 +1,7 @@
 ---
 title:  "04.08.2025 Oly Pop Gen Manuscript Map"
 author: "Zachary Bengtsson"
-date:   2025-04-23
+date:   2025-04-08
 layout: post
 tags:   [oly, mapping, pop gen]
 ---
