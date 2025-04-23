@@ -1,3 +1,11 @@
+---
+layout: post
+title: 04.22.2024 lncRNA-mRNA Expression Correlation Pipeline
+date: '2025-04-22'
+categories: E5
+tags: pipeline
+---
+
 ## 📊 lncRNA–mRNA Correlation Pipeline Summary
 
 This pipeline takes raw lncRNA and mRNA count matrices, normalizes them with DESeq2, computes pairwise Pearson correlations, and exports + visualizes significant co-expression relationships. This run is for Acropora pulchra E5 samples from the original deep-dive. Code found [here](https://github.com/urol-e5/deep-dive-expression/blob/main/M-multi-species/code/03-expression-matrix-correlations.qmd).
@@ -240,7 +248,7 @@ ggplot(heat_long, aes(x = mRNA, y = lncRNA, fill = correlation)) +
        x = "mRNA", y = "lncRNA")
 ```
 
-![](images/Apul_Pearson_Heatmap.png)
+![Top 10 Most Significant Correlations](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/Apul-Pearson-Heatmap.png?raw=true)
 
 ------------------------------------------------------------------------
 
