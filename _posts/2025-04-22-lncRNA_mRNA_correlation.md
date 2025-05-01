@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 04.22.2024 lncRNA-mRNA Expression Correlation Pipeline
+title: 04.22.2025 lncRNA-mRNA Expression Correlation Pipeline
 date: '2025-04-22'
 categories: E5
 tags: pipeline

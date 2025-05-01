@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 04.25.2024 Plate Reader Installation
+title: 04.25.2025 Plate Reader Installation
 date: '2025-04-25'
 categories: TA
 tags: assays
