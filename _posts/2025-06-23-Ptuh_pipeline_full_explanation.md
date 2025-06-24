@@ -1,5 +1,5 @@
 ---
-title: "Lab Notebook: Ptuh lncRNA Pipeline Explanations"
+title: "06.23.2025 Ptuh lncRNA Pipeline Updates: GFFcompare, duplication fixes, and GTF formatting"
 date: 2025-06-23
 layout: post
 categories: lncRNA bioinformatics e5
@@ -175,7 +175,7 @@ After this filter step there are 18998 lncRNA candidates.
 ## 9. Fasta Extraction & CPC2
 
 Bedtools
-```{r fasta, engine='bash'}
+```{bash}
 "${BEDTOOLS_DIR}"/bedtools getfasta \
 -fi "${GENOME_FASTA}" \
 -bed "${OUTPUT_DIR}/lncRNA_candidates.gtf" \
@@ -183,14 +183,14 @@ Bedtools
 -name -split
 ```
 
-```{r, engine='bash', eval=TRUE, echo=FALSE}
+```{bash}
 fgrep -c ">" ${OUTPUT_DIR}/lncRNA_candidates.fasta
 
 head ${OUTPUT_DIR}/lncRNA_candidates.fasta
 ```
 
 CPC2
-```{r cpc2, engine='bash'}
+```{bash}
 eval "$(/opt/anaconda/anaconda3/bin/conda shell.bash hook)"
 python /home/shared/CPC2_standalone-1.0.1/bin/CPC2.py \
 -i "${OUTPUT_DIR}/lncRNA_candidates.fasta" \
@@ -198,19 +198,19 @@ python /home/shared/CPC2_standalone-1.0.1/bin/CPC2.py \
 ```
 
 Filter
-```{r filCPC, engine='bash'}
+```{bash}
 awk '$8 == "noncoding" {print $1}' "${OUTPUT_DIR}/CPC2.txt" > "${OUTPUT_DIR}/noncoding_transcripts_ids.txt"
 ```
 
 Subsetting new fasta
-```{r ssfasta, engine='bash'}
+```{bash}
 "${SAMTOOLS_DIR}samtools" faidx "${OUTPUT_DIR}/lncRNA_candidates.fasta" \
 -r "${OUTPUT_DIR}/noncoding_transcripts_ids.txt" \
 > "${OUTPUT_DIR}/lncRNA.fasta"
 ```
 
 Generate new bed and new gtf
-```{r lncRNAgtf, engine='bash'}
+```{bash}
 # Define input and output file paths using the OUTPUT_DIR variable
 input="${OUTPUT_DIR}/noncoding_transcripts_ids.txt"
 output="${OUTPUT_DIR}/lncRNA.bed"
@@ -234,7 +234,7 @@ while IFS= read -r line; do
 done < "$input" > "$output"
 ```
 
-```{r renamegtf, engine='bash'}
+```{bash}
 awk 'BEGIN{OFS="\t"; count=1} {printf "%s\t.\tlncRNA\t%d\t%d\t.\t+\t.\tgene_id \"lncRNA_%03d\";\n", $1, $2, $3, count++;}' "${OUTPUT_DIR}/lncRNA.bed" \
 > "${OUTPUT_DIR}/lncRNA.gtf"
 ```
@@ -289,7 +289,7 @@ awk 'BEGIN{OFS="\t"}
 ```
 
 GTF is now ready for input to featureCounts for expression matrices
-```{r, engine='bash'}
+```{bash}
 /home/shared/subread-2.0.5-Linux-x86_64/bin/featureCounts \
 -T 24 \
 -a ../output/01.6-Ptuh-lncRNA-pipeline/Ptuh_lncRNA_for_fc.gtf \
