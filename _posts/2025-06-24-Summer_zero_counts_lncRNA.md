@@ -1,8 +1,8 @@
 ---
-title: "Summer Quarter 2025 Dailies"
-date: 2025-06-23
+title: "06.24.2025 0 lncRNA counts in E5 deep-dive-expression matrices due to FeatureCounts settings"
+date: 2025-06-24
 layout: post
-categories: organization tracking
+categories: lncRNA bioinformatics e5
 ---
 
 TL;DR - I was able to resolve the issue of all 0 count rows in the Ptuh count matrix by adding options for including multi-overlap and multi-mapping. These deviate from the default settings of FeatureCounts and I wonder if we just want to eliminate the 25 lncRNAs unable to pass these default settings. We can, however, proceed with all counts.
