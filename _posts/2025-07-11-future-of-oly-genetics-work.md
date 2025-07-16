@@ -1,5 +1,5 @@
 ---
-title: "07.11.2025 Oly genetics work status and "
+title: "07.11.2025 Oly genetics work status and future directions"
 date: 2025-07-11
 layout: post
 categories: oly-genetics planning
