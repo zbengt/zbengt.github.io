@@ -11,7 +11,7 @@ TL;DR - Adapted the PCC code Jill and Kathleen have been using. Should work on r
 
 Load all the packages we’ll need and turn on code echoing.
 
-```{r setup, include=FALSE}
+```{r}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
 library(tidyverse)    # for data wrangling & piping
@@ -27,7 +27,7 @@ library(ggraph)       # ggplot2-style network plotting
 
 ### 2.1 lncRNA
 
-```{r read-lncrna}
+```{r}
 # Adjust path to wherever your lncRNA counts live
 lncRNA_counts_raw <- read.delim("../output/18-Ptuh-lncRNA-matrix/Ptuh-lncRNA-counts.txt", skip=1)
 
@@ -41,7 +41,7 @@ lncRNA_counts_df <- lncRNA_counts_raw %>%
 
 ### 2.2 mRNA
 
-```{r read-mrna}
+```{r}
 # Replace with your own path & column names
 mrna_counts_raw <- read.delim("../output/03.1-Ptuh-sRNA-summary/Ptuh_mRNA_counts.txt")
 
@@ -58,7 +58,7 @@ mrna_counts_df <- mrna_counts_raw %>%
 
 Define a simple RPM function and apply it to both matrices.
 
-```{r normalize}
+```{r}
 normalize_counts <- function(counts) {
   t(t(counts) / colSums(counts)) * 1e6
 }
@@ -73,7 +73,7 @@ mrna_norm   <- normalize_counts(mrna_counts_df)
 
 We build a two‐column data frame where each row is one possible lncRNA–mRNA combination.
 
-```{r pair-generation}
+```{r}
 pairs_lnc_mrna <- expand.grid(
   lncRNA = rownames(lncRNA_norm),
   mRNA   = rownames(mrna_norm),
@@ -123,7 +123,7 @@ sig_lnc_mrna <- pcc_lnc_mrna %>%
 
 Write out both the full table and the significant‐only subset to CSV.
 
-```{r save-results}
+```{r}
 write.csv(pcc_lnc_mrna, "../output/15-Ptuh-lncRNA-mRNA-PCC/all_pairs.csv",         row.names = FALSE)
 write.csv(sig_lnc_mrna, "../output/15-Ptuh-lncRNA-mRNA-PCC/significant_pairs.csv", row.names = FALSE)
 ```
@@ -134,7 +134,7 @@ write.csv(sig_lnc_mrna, "../output/15-Ptuh-lncRNA-mRNA-PCC/significant_pairs.csv
 
 Confirm how many unique genes made it through significance filtering.
 
-```{r inspect}
+```{r}
 cat("Unique lncRNAs with significant partners: ", n_distinct(sig_lnc_mrna$lncRNA), "
 ")
 cat("Unique mRNAs  with significant partners: ", n_distinct(sig_lnc_mrna$mRNA),   "
