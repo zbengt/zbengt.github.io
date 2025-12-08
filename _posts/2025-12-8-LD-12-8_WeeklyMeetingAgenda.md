@@ -1,5 +1,5 @@
 ---
-title: "12.08.2025 Weekly Meeting Agenda
+title: "12.08.2025 Weekly Meeting Agenda"
 date: 2025-12-08
 layout: post
 categories: weekly-meeting
