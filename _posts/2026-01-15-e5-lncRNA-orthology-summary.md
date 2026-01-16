@@ -214,6 +214,12 @@ lncRNA_summary <- lnc_df %>%
 
 ------------------------------------------------------------------------
 
+## E5 Deep Dive Expression Manuscript Text Summarizing Results
+
+A total of 31491 putative long non-coding RNAs (lncRNAs) were identified in A. pulchra, with an average transcript length of 2397 base pairs (bp), a mean expression level of 306 counts, and a median expression of 34 counts. In P. evermanni, 10090 lncRNAs were detected, with an average length of 2591 bp, a mean expression level of 2908 counts, and a median of 47 counts. For P. tuahiniensis, 16153 lncRNAs were identified, with an average length of 3124 bp, a mean expression level of 664 TPM, and a median of 28 TPM. Shorter lncRNAs, those below 2000 bp, are more highly expressed across all three species.  Multi-species comparison identified 46 unique lncRNA transcripts shared among the three species, while 205, 190, and 65 were shared among A. pulchra and P. evermanni, A. pulchra and P. tuahiniensis, and P. evermanni and P. tuahiniensis, respectively. The majority of conserved lncRNAs are below 2000 bp  and vary widely in mean expression.
+
+------------------------------------------------------------------------
+
 ## Common pitfalls encountered
 
 -   Mismatched lncRNA IDs due to species prefixes
