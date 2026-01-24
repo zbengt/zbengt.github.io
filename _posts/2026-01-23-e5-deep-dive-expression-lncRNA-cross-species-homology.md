@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "E5 Deep-Dive Expression Cross-species lncRNA homology in corals (strict vs relaxed)"
-date: 2026-01-24
+date: 2026-01-23
 tags: [lncRNA, deep-dive]
 categories: [coral, comparative-genomics]
 ---
