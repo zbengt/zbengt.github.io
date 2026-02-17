@@ -3,7 +3,7 @@ layout: post
 title: "E5 Deep Dive Expression lncRNA Classification"
 author: "Zach Bengtsson"
 date: "2026-02-16"
-categories: []E5, lncRNA]
+categories: [E5, lncRNA]
 tags: [lncRNA, E5 Deep Dive Expression]
 ---
 
@@ -736,7 +736,7 @@ fig1a_counts
 # ggsave("fig1a_genomic_class_counts.png", fig1a_counts, width = 5, height = 4, dpi = 300)
 ```
 
-![Figure 1A — Genomic class counts by species](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig1a_genomic_class_counts.png)
+![Figure 1A — Genomic class counts by species](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig1a_genomic_class_counts.png?raw=true)
 
 *Figure 1A. Counts of Tier 1 lncRNAs per species, stratified by genomic class (intergenic, intronic, antisense_exonic, sense_exonic).*
 
@@ -770,7 +770,7 @@ fig1b_props
 # ggsave("fig1b_genomic_class_proportions.png", fig1b_props, width = 5, height = 4, dpi = 300)
 ```
 
-![Figure 1B — Genomic class proportions by species](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig1b_genomic_class_proportions.png)
+![Figure 1B — Genomic class proportions by species](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig1b_genomic_class_proportions.png?raw=true)
 
 *Figure 1B. Proportions of Tier 1 lncRNAs per species, stratified by genomic class.*
 
@@ -808,7 +808,7 @@ fig2_cis_by_class
 # ggsave("fig2_cis_by_genomic_class.png", fig2_cis_by_class, width = 9, height = 4, dpi = 300)
 ```
 
-![Figure 2 — Cis vs non-cis within genomic class](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig2_cis_by_genomic_class.png)
+![Figure 2 — Cis vs non-cis within genomic class](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig2_cis_by_genomic_class.png?raw=true)
 
 *Figure 2. Within each genomic class, stacked proportions of Tier 1 lncRNAs classified as cis vs non-cis/unknown across species.*
 
@@ -844,7 +844,7 @@ fig4_cis_cor
 # ggsave("fig4_cis_correlation_density.png", fig4_cis_cor, width = 6, height = 4, dpi = 300)
 ```
 
-![Figure 4A — Cis correlation density](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig4_cis_correlation_by_class.png)
+![Figure 4A — Cis correlation density](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig4_cis_correlation_by_class.png?raw=true)
 
 *Figure 4A. Density of nearest-gene Pearson correlations among lncRNAs classified as cis (threshold lines at r = ±0.6), colored by species.*
 
@@ -873,7 +873,7 @@ fig4_cis_cor_facet
 # ggsave("fig4_cis_correlation_by_class.png", fig4_cis_cor_facet, width = 8, height = 6, dpi = 300)
 ```
 
-![Figure 4B — Cis correlation by genomic class](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig4_cis_correlation_density.png)
+![Figure 4B — Cis correlation by genomic class](https://github.com/zbengt/zbengt.github.io/blob/master/assets/img/E5-deep-dive-expression/fig4_cis_correlation_density.png?raw=true)
 
 *Figure 4B. Density of nearest-gene Pearson correlations among cis lncRNAs, faceted by genomic class and colored by species.*
 
